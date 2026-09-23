@@ -3,8 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Between App Prototype</title>
+<meta name="theme-color" content="#FFFFFF">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Knack">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Knack</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
 <style>
@@ -222,12 +229,21 @@ details.info ul{margin:0 0 14px;padding-left:18px;font-size:13.5px;color:var(--m
   .guide{padding-top:0;max-width:400px;order:2}
   .guide .wm{font-size:32px}
 }
-@media (max-width:480px){
-  body{padding-inline:8px;padding-block:8px}
-  .phone{border-radius:28px;padding:6px;height:calc(100dvh - 16px);min-height:600px}
-  .app{border-radius:23px}
-  .guide{padding-inline:8px}
+@media (max-width:600px), (pointer:coarse){
+  html,body{height:100%}
+  body{padding:0;overflow:hidden;background:var(--surface)}
+  .stage{display:block;height:100%;max-width:none}
+  .guide{display:none}
+  .phone{width:100%;height:100%;min-height:0;border-radius:0;padding:0;box-shadow:none;background:var(--surface)}
+  .app{border-radius:0}
+  .toast{bottom:78px}
+  .search input,.field input,.field select,.field textarea{font-size:16px}
 }
+.splash{position:absolute;inset:0;z-index:20;background:var(--sun);color:var(--sun-ink);display:grid;place-content:center;justify-items:center;gap:6px;animation:splashOut .45s ease .9s forwards}
+.splash .logo{font-family:var(--display);font-weight:800;font-size:64px;letter-spacing:-.04em;line-height:1}
+.splash p{margin:0;font-weight:600;opacity:.8}
+@keyframes splashOut{to{opacity:0;visibility:hidden}}
+@media (prefers-reduced-motion: reduce){.splash{display:none}}
 </style>
 
 </head>
@@ -238,10 +254,11 @@ details.info ul{margin:0 0 14px;padding-left:18px;font-size:13.5px;color:var(--m
     <main class="screen" id="screen"></main>
     <nav class="tabs" id="tabs" aria-label="Main"></nav>
     <div class="toast" id="toast" role="status" hidden></div>
+    <div class="splash" id="splash" aria-hidden="true"><div class="logo">knack</div><p>Your skills, your hours.</p></div>
   </div></div>
 
   <aside class="guide">
-    <div class="wm">Betw<span>een</span></div>
+    <div class="wm">Kn<span>ack</span></div>
     <p class="sub">Clickable prototype · MOD09 Innovation &amp; Entrepreneurship · Group 2</p>
     <h2>Demo flow for the pitch</h2>
     <ol>
@@ -401,12 +418,12 @@ function listHTML(){
 
 const R = {
   explore(){
-    $('bar').innerHTML = `<div class="brand">Betw<span>een</span></div><span class="city">Enschede</span>`;
+    $('bar').innerHTML = `<div class="brand">Kn<span>ack</span></div><span class="city">Enschede</span>`;
     return `
       <p class="hello">Hoi ${esc(S.me.name)}, what do you need done?</p>
       <label class="search">${ic('search','s')}<input id="q" type="search" placeholder="Haircut, bike, calculus…" value="${esc(S.q)}" aria-label="Search services"></label>
       <div class="chips" role="group" aria-label="Categories">${CATS.map(([id,n])=>`<button class="chip" data-a="cat" data-id="${id}" aria-pressed="${S.cat===id}">${id!=='all'?ic(id,'s'):''}${n}</button>`).join('')}</div>
-      <div class="trust">${ic('shield')}<div><b>Pay safely, only for work that's done.</b> Your money is held by Between until you confirm the job is done.</div></div>
+      <div class="trust">${ic('shield')}<div><b>Pay safely, only for work that's done.</b> Your money is held by Knack until you confirm the job is done.</div></div>
       <div class="sechead"><h2>Students near you</h2><span id="cnt">${visibleListings().length} services</span></div>
       <div class="list" id="results">${listHTML()}</div>`;
   },
@@ -438,7 +455,7 @@ const R = {
       <div class="card"><div class="lcard" style="grid-template-columns:44px 1fr">${av(l)}<div><p class="ltitle">${esc(l.title)}</p><div class="lmeta">${esc(l.who)} · ${esc(l.slots[sel])}</div></div></div></div>
       <div class="card lines">
         <div class="line"><span class="m">Service</span><span>${eur(l.price)}</span></div>
-        <div class="line"><span class="m">Between service fee (10%)</span><span>${eur(f)}</span></div>
+        <div class="line"><span class="m">Knack service fee (10%)</span><span>${eur(f)}</span></div>
         <div class="line tot"><span>Total</span><span>${eur(tot)}</span></div>
       </div>
       <div class="escrow">${ic('lock')}<div><b>Your ${eur(tot)} is held safely</b>${esc(l.who)} is paid only after you confirm the job is done, or automatically 48 hours later if you don't report a problem.</div></div>
@@ -468,7 +485,7 @@ const R = {
     const order=['held','done','released'];
     const idx = st==='reviewed'?3 : st==='released'?3 : order.indexOf(st);
     const steps=[
-      ['Booked & paid',`${eur(tot)} held by Between`],
+      ['Booked & paid',`${eur(tot)} held by Knack`],
       [`${l.who} does the job`, b.slot],
       ['You confirm','Or auto-confirm after 48 h'],
       [`${l.who} gets paid`, eur(b.price)+' to their account'],
@@ -489,7 +506,7 @@ const R = {
     return `
       <div class="card"><div class="lcard" style="grid-template-columns:44px 1fr">${av(l)}<div><p class="ltitle">${esc(l.title)}</p><div class="lmeta">${esc(l.who)} · ${esc(b.slot)}</div><div style="margin-top:8px">${pill(st)}</div></div></div></div>
       ${st==='done'?`<div class="note warn">${ic('clock','s')} <b>${esc(l.who)} marked this job as done.</b> Check the result. If you do nothing, payment is released automatically in ${b.hours} h.</div>`:''}
-      ${st==='dispute'?`<div class="note bad"><b>Payment is frozen.</b> Between support looks at both sides and replies within 24 hours. Reason: ${esc(b.reason||'')}</div>`:''}
+      ${st==='dispute'?`<div class="note bad"><b>Payment is frozen.</b> Knack support looks at both sides and replies within 24 hours. Reason: ${esc(b.reason||'')}</div>`:''}
       ${st==='reviewed'&&b.review?`<div class="card"><h3 class="lbl" style="margin:0 0 8px">Your review</h3>${stars(b.review.s)}<p style="margin:6px 0 0">${esc(b.review.t||'No comment')}</p></div>`:''}
       <div class="card">${tl}</div>
       <div class="card lines">
@@ -572,9 +589,9 @@ const R = {
       </div>
       <details class="info" open><summary>How payments work</summary><ul>
         <li>The customer pays when booking (iDEAL or card).</li>
-        <li>Between holds the money until the job is done.</li>
+        <li>Knack holds the money until the job is done.</li>
         <li>The provider is paid when the customer confirms, or automatically after 48 hours without a complaint.</li>
-        <li>Between charges customers a 10% service fee. That's how the platform earns: only when students earn.</li>
+        <li>Knack charges customers a 10% service fee. That's how the platform earns: only when students earn.</li>
       </ul></details>
       <details class="info"><summary>Cancellation & no-show rules</summary><ul>
         <li>Customers cancel for free up to 24 hours before. After that, 50% goes to the provider.</li>
@@ -583,11 +600,11 @@ const R = {
       </ul></details>
       <details class="info"><summary>Disputes & safety</summary><ul>
         <li>Report a problem within 48 hours. Payment is frozen until it's solved.</li>
-        <li>Between support hears both sides and decides within 24 hours.</li>
+        <li>Knack support hears both sides and decides within 24 hours.</li>
         <li>Every provider is verified with a UT, Saxion or ArtEZ student email.</li>
       </ul></details>
       <details class="info"><summary>Taxes & rules</summary><ul>
-        <li>Earnings you make on Between are income. Between gives you a yearly overview for your tax return.</li>
+        <li>Earnings you make on Knack are income. Knack gives you a yearly overview for your tax return.</li>
         <li>Only legal services are allowed. Every new service is checked before it goes live.</li>
       </ul></details>
       <button class="btn ghost" data-a="reset">Reset demo data</button>`;
@@ -670,6 +687,7 @@ app.addEventListener('submit',e=>{
   S.stack=[{name:'explore'}]; render(true); toast('Your service is live on Explore');
 });
 render(true);
+setTimeout(()=>{const sp=$('splash'); if(sp) sp.remove();},1500);
 </script>
 
 </body>
