@@ -1,0 +1,1235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#211F18">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Knack">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2064%2064%27%3E%3Crect%20width%3D%2764%27%20height%3D%2764%27%20rx%3D%2714%27%20fill%3D%27%23211F18%27/%3E%3Crect%20x%3D%2717%27%20y%3D%2712%27%20width%3D%278%27%20height%3D%2740%27%20rx%3D%272%27%20fill%3D%27%23EDE8DA%27/%3E%3Cpath%20d%3D%27M47%2015L31%2032l16%2017%27%20fill%3D%27none%27%20stroke%3D%27%23D6A83E%27%20stroke-width%3D%277.5%27/%3E%3C/svg%3E">
+<link rel="alternate icon" type="image/png" href="data:image/png;base64,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">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Knack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --desk:#E4DFD1; --bg:#F4F1E8; --surface:#FCFAF5; --raise:#FFFFFF; --ink:#211F18; --ink-2:#3B382E; --muted:#6D6858; --line:#E3DDCE; --line-2:#D5CEBB;
+  --gold:#D19F32; --gold-ink:#211F18; --gold-text:#8A6414; --gold-soft:#F3E7C6;
+  --logo-bar:#211F18;
+  --on-bad:#FCFAF5; --good:#3C7A4B; --good-soft:#E2EEDF; --warn:#9C5F12; --warn-soft:#F8E9CF; --bad:#A8412E; --bad-soft:#F6E1DA;
+  --frame:#211F18; --shadow:0 40px 80px -40px rgba(33,31,24,.5);
+  --display:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;
+  --body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --desk:#0F0E0A; --bg:#1A1914; --surface:#211F18; --raise:#2A271F; --ink:#EDE8DA; --ink-2:#D6D0BF; --muted:#A39D8A; --line:#35322A; --line-2:#48443A;
+    --gold:#D6A83E; --gold-ink:#211F18; --gold-text:#E2B955; --gold-soft:#3A3120;
+    --logo-bar:#EDE8DA;
+    --on-bad:#211F18; --good:#7DBE8B; --good-soft:#1F3024; --warn:#E3A857; --warn-soft:#3A2C17; --bad:#E8826E; --bad-soft:#3B211B;
+    --frame:#000; --shadow:0 40px 80px -40px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --desk:#0F0E0A; --bg:#1A1914; --surface:#211F18; --raise:#2A271F; --ink:#EDE8DA; --ink-2:#D6D0BF; --muted:#A39D8A; --line:#35322A; --line-2:#48443A;
+  --gold:#D6A83E; --gold-ink:#211F18; --gold-text:#E2B955; --gold-soft:#3A3120;
+  --logo-bar:#EDE8DA;
+  --on-bad:#211F18; --good:#7DBE8B; --good-soft:#1F3024; --warn:#E3A857; --warn-soft:#3A2C17; --bad:#E8826E; --bad-soft:#3B211B;
+  --frame:#000; --shadow:0 40px 80px -40px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+body{background:var(--desk);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;padding-inline:16px;padding-block:24px}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+html,body{height:100%}
+body{padding:0;margin:0;overflow:hidden;background:var(--bg)}
+.stage,.phone{height:100%}
+.app{position:relative;height:100%;background:var(--bg);overflow:hidden;display:flex;flex-direction:column}
+.topnav{display:none}
+.only-d{display:none}
+.detail,.main{display:flex;flex-direction:column;gap:18px}
+
+/* bars */
+.bar{display:flex;align-items:center;gap:10px;padding:16px 16px 10px;background:var(--bg);min-height:58px}
+.bar.line{border-bottom:1px solid var(--line)}
+.bar h1{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:-.02em;margin:0;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brandrow{display:flex;align-items:center;gap:8px;flex:1}
+.brandrow .logo{height:22px;width:auto}
+.brandrow b{font-family:var(--display);font-weight:800;font-size:25px;letter-spacing:-.05em;line-height:1}
+.logo{display:block}
+.iconbtn{width:38px;height:38px;border-radius:12px;border:0;background:transparent;display:grid;place-items:center;flex:none;color:var(--ink)}
+.iconbtn:hover{background:var(--line)}
+.where{font-size:13px;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:4px}
+.screen{flex:1;overflow-y:auto;overflow-x:hidden;padding:4px 16px 28px;display:flex;flex-direction:column;gap:18px}
+.screen>*{flex-shrink:0}
+.tabs{display:grid;grid-template-columns:repeat(5,1fr);background:var(--surface);border-top:1px solid var(--line);padding:6px 4px 12px}
+.tab{background:none;border:0;display:grid;justify-items:center;gap:2px;font-size:10.5px;font-weight:600;color:var(--muted);padding:6px 2px;position:relative}
+.tab[aria-current="true"]{color:var(--ink)}
+.tab[aria-current="true"] svg{stroke:var(--ink);stroke-width:2.2}
+.tab .dot{position:absolute;top:3px;left:calc(50% + 6px);min-width:16px;height:16px;border-radius:8px;background:var(--gold);color:var(--gold-ink);font-size:10px;font-weight:700;display:grid;place-items:center;padding:0 4px;border:2px solid var(--surface)}
+svg.i{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+svg.i.s{width:17px;height:17px}
+svg.star{width:13px;height:13px;fill:var(--gold);flex:none}
+
+/* explore */
+.greet{margin:6px 0 0;color:var(--muted);font-weight:500}
+.hello{font-family:var(--display);font-weight:800;font-size:30px;letter-spacing:-.035em;line-height:1.02;margin:2px 0 0;text-wrap:balance}
+.search{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line-2);border-radius:14px;padding:0 12px;color:var(--muted)}
+.search input{border:0;background:none;outline:none;padding:13px 0;flex:1;min-width:0;color:var(--ink)}
+.cats{display:flex;gap:6px;overflow-x:auto;margin:0 -16px;padding:0 16px;scrollbar-width:none}
+.cats::-webkit-scrollbar{display:none}
+.cat{flex:none;width:70px;background:none;border:0;display:grid;justify-items:center;gap:6px;font-size:11.5px;font-weight:600;color:var(--muted);padding:0}
+.cat .ci{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:var(--surface);border:1px solid var(--line);color:var(--ink)}
+.cat[aria-pressed="true"]{color:var(--ink)}
+.cat[aria-pressed="true"] .ci{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.trustline{display:flex;align-items:center;gap:8px;background:var(--gold-soft);border:0;border-radius:12px;padding:11px 12px;font-size:13px;text-align:left;width:100%;color:var(--ink)}
+.trustline svg{color:var(--gold-text)}
+.trustline u{margin-left:auto;font-weight:700;text-decoration:none;color:var(--gold-text);white-space:nowrap}
+.sec{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:-8px}
+.sec h2{font-family:var(--display);font-size:19px;font-weight:700;letter-spacing:-.02em;margin:0}
+.sec span{font-size:13px;color:var(--muted)}
+.rows{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.row{display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center;width:100%;text-align:left;background:none;border:0;padding:12px 14px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row:hover{background:var(--raise)}
+.thumb{width:56px;height:56px;border-radius:14px;display:grid;place-items:center;color:#FCFAF5;flex:none;background:var(--c)}
+.thumb svg{width:26px;height:26px;stroke-width:1.7}
+.rt{font-weight:600;font-size:15px;line-height:1.25;margin:0}
+.rm{font-size:13px;color:var(--muted);margin-top:3px;display:flex;flex-wrap:wrap;gap:2px 8px;align-items:center}
+.rm .r{display:inline-flex;align-items:center;gap:3px;color:var(--ink);font-weight:600}
+.rp{text-align:right;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;font-size:15px}
+.rp small{display:block;font-weight:500;font-size:11.5px;color:var(--muted)}
+.badge{display:inline-flex;align-items:center;gap:3px;font-size:11px;font-weight:700;border-radius:6px;padding:2px 6px}
+.badge.new{background:var(--gold);color:var(--gold-ink)}
+.badge.you{background:var(--line);color:var(--ink)}
+.empty{text-align:center;color:var(--muted);padding:32px 12px}
+
+/* listing */
+.band{margin:-4px -16px 0;height:170px;background:var(--c);display:grid;place-items:center;color:rgba(252,250,245,.9);position:relative;overflow:hidden}
+.band svg{width:64px;height:64px;stroke-width:1.4}
+.band::after{content:"";position:absolute;inset:auto 0 0 0;height:40%;background:linear-gradient(to top,rgba(0,0,0,.18),transparent)}
+.band .cattag{position:absolute;left:16px;bottom:12px;z-index:1;color:#FCFAF5;font-size:12px;font-weight:700;background:rgba(0,0,0,.28);padding:4px 8px;border-radius:7px}
+.big{font-family:var(--display);font-weight:800;font-size:27px;letter-spacing:-.03em;line-height:1.05;margin:0;text-wrap:balance}
+.who{display:flex;align-items:center;gap:12px}
+.av{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:14px;color:#FCFAF5;flex:none;background:var(--c)}
+.av.lg{width:62px;height:62px;font-size:20px}
+.av.sm{width:36px;height:36px;font-size:12px}
+.who .n{font-weight:700;display:flex;align-items:center;gap:5px}
+.who .n svg{color:var(--good)}
+.who .s{font-size:13px;color:var(--muted)}
+.who .grow{flex:1;min-width:0}
+.facts{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13.5px;color:var(--muted);padding:12px 0;border-block:1px solid var(--line)}
+.facts b{color:var(--ink)}
+.facts span{display:inline-flex;align-items:center;gap:4px}
+.lbl{font-family:var(--display);font-size:17px;font-weight:700;letter-spacing:-.01em;margin:4px 0 -8px}
+.slots{display:flex;flex-wrap:wrap;gap:8px}
+.slot{border:1.5px solid var(--line-2);background:var(--surface);border-radius:11px;padding:9px 12px;font-weight:600;font-size:13.5px}
+.slot[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.reviews{display:grid;gap:0}
+.review{display:grid;gap:3px;padding:12px 0;border-top:1px solid var(--line)}
+.review:first-child{border-top:0;padding-top:0}
+.review .rh{display:flex;justify-content:space-between;font-size:13px;font-weight:600}
+.review .rh span{color:var(--muted);font-weight:500}
+.review p{margin:0;font-size:14px}
+.stars{display:inline-flex;gap:1px}
+.buybar{position:sticky;bottom:-28px;margin:auto -16px -28px;padding:12px 16px 14px;background:var(--surface);border-top:1px solid var(--line);display:flex;align-items:center;gap:12px}
+.buybar .p{flex:1;font-variant-numeric:tabular-nums}
+.buybar .p b{display:block;font-size:18px}
+.buybar .p span{font-size:12px;color:var(--muted)}
+.buybar .btn{width:auto;flex:none;padding-inline:18px}
+.cta{position:sticky;bottom:-28px;margin:auto -16px -28px;padding:12px 16px 14px;background:var(--bg);border-top:1px solid var(--line);display:grid;gap:8px}
+
+.btn{border:0;border-radius:13px;padding:14px 16px;font-weight:700;font-size:15px;background:var(--gold);color:var(--gold-ink);width:100%;display:flex;justify-content:center;align-items:center;gap:8px}
+.btn:hover{filter:brightness(1.04)}
+.btn.dark{background:var(--ink);color:var(--bg)}
+.btn.sec{background:var(--surface);color:var(--ink);border:1px solid var(--line-2)}
+.btn.ghost{background:none;color:var(--muted);font-weight:600;padding:10px}
+.btn.danger{background:var(--bad);color:var(--on-bad)}
+.btn.outline-danger{background:none;color:var(--bad);border:1px solid var(--line-2)}
+.btn.sim{background:none;border:1.5px dashed var(--line-2);color:var(--muted);font-weight:600;font-size:13.5px}
+.btn:disabled{opacity:.4;cursor:not-allowed;filter:none}
+.smallbtn{border:1px solid var(--line-2);background:var(--surface);border-radius:10px;padding:7px 11px;font-weight:600;font-size:13px;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+.smallbtn.p{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.smallbtn.sim{border-style:dashed;color:var(--muted)}
+
+.box{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:14px}
+.lines{display:grid;gap:9px;font-variant-numeric:tabular-nums}
+.line{display:flex;justify-content:space-between;font-size:14px}
+.line .m{color:var(--muted)}
+.line.tot{border-top:1px solid var(--line);padding-top:10px;font-weight:700;font-size:16px}
+.pay{display:grid;gap:8px}
+.pay label,.radios label{display:flex;align-items:center;gap:10px;background:var(--surface);border:1.5px solid var(--line);border-radius:13px;padding:12px;font-weight:600;font-size:14px}
+.pay label:has(input:checked),.radios label:has(input:checked){border-color:var(--ink)}
+.pay input,.radios input{accent-color:var(--ink);width:18px;height:18px}
+.radios{display:grid;gap:8px}
+.escrow{display:flex;gap:12px;border-left:3px solid var(--gold);padding:4px 0 4px 12px;font-size:13.5px}
+.escrow b{display:block;font-size:14.5px;margin-bottom:2px}
+.fine{font-size:12.5px;color:var(--muted);margin:0}
+
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;border-radius:7px;padding:3px 8px;white-space:nowrap}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.pill.held{background:var(--gold-soft);color:var(--gold-text)}
+.pill.done,.pill.await{background:var(--warn-soft);color:var(--warn)}
+.pill.released,.pill.reviewed,.pill.paid,.pill.live{background:var(--good-soft);color:var(--good)}
+.pill.dispute{background:var(--bad-soft);color:var(--bad)}
+.pill.cancelled,.pill.hidden{background:var(--line);color:var(--muted)}
+
+.timeline{list-style:none;margin:0;padding:0;display:grid}
+.timeline li{display:grid;grid-template-columns:26px 1fr;gap:12px;position:relative;padding-bottom:16px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:12px;top:26px;bottom:0;width:2px;background:var(--line)}
+.timeline li:last-child::before{display:none}
+.timeline li.ok::before{background:var(--good)}
+.tdot{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;border:2px solid var(--line-2);background:var(--surface);color:var(--muted);font-size:12px;font-weight:700}
+.ok .tdot{background:var(--good);border-color:var(--good);color:var(--surface)}
+.now .tdot{border-color:var(--gold);color:var(--gold-text);box-shadow:0 0 0 4px var(--gold-soft)}
+.bad .tdot{border-color:var(--bad);color:var(--bad)}
+.timeline b{display:block;font-size:14px}
+.timeline span{font-size:12.5px;color:var(--muted)}
+.note{border-radius:13px;padding:12px;font-size:13.5px}
+.note.warn{background:var(--warn-soft)}
+.note.bad{background:var(--bad-soft)}
+
+/* earn */
+.earn{background:var(--gold);color:var(--gold-ink);border-radius:20px;padding:18px;display:grid;gap:14px}
+.earn .k{font-size:13px;font-weight:600;opacity:.75}
+.earn .v{font-family:var(--display);font-weight:800;font-size:40px;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
+.earn .row3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;border-top:1px solid rgba(33,31,24,.2);padding-top:12px}
+.earn .row3 b{display:block;font-size:16px;font-variant-numeric:tabular-nums}
+.earn .row3 span{font-size:12px;opacity:.75}
+.toggle{display:flex;align-items:center;gap:12px}
+.toggle .txt{flex:1}
+.toggle b{display:block;font-size:14.5px}
+.toggle span{font-size:12.5px;color:var(--muted)}
+.switch{width:48px;height:28px;border-radius:999px;border:0;background:var(--line-2);position:relative;flex:none;transition:background .2s}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#FCFAF5;box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .2s}
+.switch[aria-checked="true"]{background:var(--gold)}
+.switch[aria-checked="true"]::after{transform:translateX(20px)}
+.grid{display:grid;grid-template-columns:auto repeat(7,1fr);gap:5px;align-items:center;font-size:11px}
+.grid .h{text-align:center;color:var(--muted);font-weight:700}
+.grid .r{color:var(--muted);font-weight:600;padding-right:4px}
+.cell{aspect-ratio:1;border-radius:7px;border:1px solid var(--line-2);background:transparent;padding:0}
+.cell[aria-pressed="true"]{background:var(--ink);border-color:var(--ink)}
+.paused .cell[aria-pressed="true"]{background:var(--line-2);border-color:var(--line-2)}
+.jobs>*+*{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
+.jrow{display:grid;grid-template-columns:1fr auto;gap:8px 10px;align-items:center}
+.jrow .t{font-weight:600;font-size:14px}
+.jrow .s{font-size:12.5px;color:var(--muted)}
+
+/* forms */
+form.f{display:grid;gap:14px}
+.field{display:grid;gap:6px}
+.field label{font-size:13px;font-weight:700}
+.field input,.field select,.field textarea{background:var(--surface);border:1px solid var(--line-2);border-radius:12px;padding:11px 12px;width:100%}
+.field textarea{min-height:88px;resize:vertical}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.starpick{display:flex;gap:6px}
+.starpick button{background:none;border:0;padding:2px}
+.starpick svg{width:34px;height:34px;fill:var(--line-2)}
+.starpick button[aria-pressed="true"] svg{fill:var(--gold)}
+.tagrow{display:flex;flex-wrap:wrap;gap:8px}
+.tagbtn{border:1.5px solid var(--line-2);background:var(--surface);border-radius:10px;padding:7px 11px;font-weight:600;font-size:13px}
+.tagbtn[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+
+/* inbox & chat */
+.convo{display:grid;grid-template-columns:48px 1fr auto;gap:12px;align-items:center;width:100%;text-align:left;background:none;border:0;padding:12px 14px;border-top:1px solid var(--line)}
+.convo:first-child{border-top:0}
+.convo .av{width:48px;height:48px}
+.convo .nm{font-weight:700;font-size:15px}
+.convo .ab{font-size:12px;color:var(--muted)}
+.convo .lm{font-size:13.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.convo.unread .lm{color:var(--ink);font-weight:600}
+.convo .tm{font-size:12px;color:var(--muted);text-align:right;display:grid;gap:6px;justify-items:end}
+.convo .ub{width:10px;height:10px;border-radius:50%;background:var(--gold)}
+.chat{display:flex;flex-direction:column;gap:6px;padding-top:6px}
+.msg{max-width:80%;padding:9px 12px;border-radius:18px;font-size:14.5px;line-height:1.35;word-wrap:break-word}
+.msg.them{align-self:flex-start;background:var(--surface);border:1px solid var(--line);border-bottom-left-radius:6px}
+.msg.me{align-self:flex-end;background:var(--ink);color:var(--bg);border-bottom-right-radius:6px}
+.msg .at{display:block;font-size:10.5px;opacity:.6;margin-top:3px;text-align:right}
+.msg.sys{align-self:center;max-width:92%;background:var(--gold-soft);color:var(--ink);border-radius:12px;font-size:12.5px;text-align:center;display:flex;gap:6px;align-items:flex-start}
+.msg.sys svg{color:var(--gold-text);margin-top:1px}
+.day{align-self:center;font-size:11.5px;color:var(--muted);font-weight:600;margin:6px 0}
+.typing{align-self:flex-start;font-size:12.5px;color:var(--muted);padding:4px 6px}
+.composer{position:sticky;bottom:-28px;margin:auto -16px -28px;padding:10px 12px 14px;background:var(--surface);border-top:1px solid var(--line);display:flex;gap:8px;align-items:center}
+.composer input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line-2);border-radius:22px;padding:11px 14px;outline:none}
+.composer input:focus{border-color:var(--ink)}
+.sendbtn{width:44px;height:44px;border-radius:50%;border:0;background:var(--gold);color:var(--gold-ink);display:grid;place-items:center;flex:none}
+.chathead{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
+.chathead .nm{font-weight:700;font-size:15.5px;line-height:1.2}
+.chathead .ab{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* profile & settings */
+.plist{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.pitem{display:flex;align-items:center;gap:12px;width:100%;background:none;border:0;border-top:1px solid var(--line);padding:13px 14px;text-align:left;font-size:14.5px;font-weight:500}
+.pitem:first-child{border-top:0}
+.pitem .grow{flex:1}
+.pitem .val{color:var(--muted);font-size:13.5px}
+.pitem.red{color:var(--bad);font-weight:600}
+.pitem svg.i{color:var(--muted)}
+.pitem.red svg.i{color:var(--bad)}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:3px;gap:3px}
+.seg button{border:0;background:none;border-radius:9px;padding:8px 6px;font-weight:600;font-size:13px;color:var(--muted);display:flex;justify-content:center;align-items:center;gap:6px}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.grouplbl{font-size:13px;font-weight:700;color:var(--muted);margin:4px 0 -10px 4px}
+details.info{border-top:1px solid var(--line);padding:0 14px}
+details.info:first-child{border-top:0}
+details.info summary{padding:13px 0;font-weight:500;font-size:14.5px;cursor:pointer;list-style:none;display:flex;justify-content:space-between}
+details.info summary::-webkit-details-marker{display:none}
+details.info summary::after{content:"+";color:var(--muted)}
+details.info[open] summary::after{content:"–"}
+details.info ul{margin:0 0 14px;padding-left:18px;font-size:13.5px;color:var(--muted);display:grid;gap:6px}
+.steps{list-style:none;padding:0;margin:0;display:grid;gap:14px;counter-reset:s}
+.steps li{display:grid;grid-template-columns:34px 1fr;gap:12px;counter-increment:s}
+.steps li::before{content:counter(s);width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-weight:700}
+.steps b{display:block}
+.steps span{font-size:13.5px;color:var(--muted)}
+.dellist{margin:0;padding-left:18px;display:grid;gap:8px;font-size:14px}
+.deleted{flex:1;display:grid;place-content:center;justify-items:center;text-align:center;gap:14px;padding:32px}
+.deleted .logo{height:48px;width:auto}
+.deleted h1{font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:-.03em;margin:0}
+.deleted p{margin:0;color:var(--muted);max-width:30ch}
+
+.toast{position:absolute;left:16px;right:16px;bottom:82px;background:var(--ink);color:var(--bg);border-radius:13px;padding:12px 14px;font-weight:600;font-size:14px;display:flex;gap:8px;align-items:center;box-shadow:0 10px 30px rgba(0,0,0,.25);animation:pop .25s ease-out;z-index:5}
+.toast[hidden]{display:none}
+@keyframes pop{from{transform:translateY(8px);opacity:.4}to{transform:none;opacity:1}}
+
+.splash{position:absolute;inset:0;z-index:20;background:#211F18;color:#EDE8DA;display:grid;place-content:center;justify-items:center;gap:18px;animation:splashOut .45s ease 1.1s forwards;--logo-bar:#EDE8DA;--gold:#D6A83E}
+.splash .lockup{display:flex;align-items:center;gap:16px}
+.splash .logo{height:54px;width:auto}
+.splash b{font-family:var(--display);font-weight:800;font-size:60px;letter-spacing:-.05em;line-height:.9}
+.splash p{margin:0;font-family:var(--display);font-weight:500;font-size:18px;letter-spacing:-.01em;color:#D6A83E}
+@keyframes splashOut{to{opacity:0;visibility:hidden}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}.splash{display:none}}
+
+.search input,.field input,.field select,.field textarea,.composer input{font-size:16px}
+@media (min-width:900px) and (pointer:fine){
+  .topnav{display:flex;align-items:center;gap:8px;padding:12px max(24px,calc((100% - 1080px)/2));background:var(--surface);border-bottom:1px solid var(--line)}
+  .tn-brand{display:flex;align-items:center;gap:8px;background:none;border:0;padding:0;margin-right:24px;color:var(--ink)}
+  .tn-brand .logo{height:24px;width:auto}
+  .tn-brand b{font-family:var(--display);font-weight:800;font-size:27px;letter-spacing:-.05em;line-height:1}
+  .tn-links{display:flex;gap:4px;flex:1}
+  .tn-link{display:flex;align-items:center;gap:7px;border:0;background:none;padding:9px 12px;border-radius:10px;font-weight:600;font-size:14.5px;color:var(--muted)}
+  .tn-link svg.i{width:18px;height:18px}
+  .tn-link:hover{color:var(--ink);background:var(--bg)}
+  .tn-link[aria-current="true"]{background:var(--bg);color:var(--ink)}
+  .tn-link .dot{min-width:18px;height:18px;border-radius:9px;background:var(--gold);color:var(--gold-ink);font-size:11px;font-weight:700;display:grid;place-items:center;padding:0 5px}
+  .tn-av{border:0;background:none;padding:0;margin-left:8px}
+  .tabs{display:none}
+  .app{--w:1080px}
+  .app[data-v="bookings"],.app[data-v="booking"],.app[data-v="review"],.app[data-v="dispute"],.app[data-v="inbox"],.app[data-v="chat"],.app[data-v="earn"],.app[data-v="add"],.app[data-v="profile"],.app[data-v="del"],.app[data-v="how"],.app[data-v="checkout"],.app[data-v="privacy"]{--w:760px}
+  .bar,.screen{padding-inline:max(24px,calc((100% - var(--w))/2))}
+  .bar{padding-top:24px;min-height:0}
+  .bar.home{display:none}
+  .screen{padding-top:16px;padding-bottom:40px;gap:22px}
+  .buybar,.cta,.composer{margin:auto 0 -40px;bottom:-40px;border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0}
+  .hello{font-size:50px}
+  .greet{font-size:17px}
+  .cats{flex-wrap:wrap;margin:0;padding:0;gap:10px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;background:none;border:0;border-radius:0;overflow:visible}
+  .cards .row,.cards .row:first-child{grid-template-columns:1fr auto;align-items:start;border:1px solid var(--line);border-radius:18px;background:var(--surface);padding:0 0 16px;overflow:hidden;gap:12px 10px}
+  .cards .row:hover{border-color:var(--line-2);box-shadow:0 8px 24px -14px rgba(0,0,0,.35)}
+  .cards .thumb{grid-column:1/-1;width:100%;height:140px;border-radius:0}
+  .cards .thumb svg{width:42px;height:42px}
+  .cards .row>div:nth-child(2){padding-left:16px}
+  .cards .rp{padding-right:16px}
+  .band{margin:0;height:280px;border-radius:22px}
+  .detail{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:48px;align-items:start}
+  .only-m{display:none!important}
+  .side.only-d{display:block;position:sticky;top:0}
+  .sidecard{display:flex;flex-direction:column;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px}
+  .sidecard .p b{font-size:26px;font-variant-numeric:tabular-nums}
+  .sidecard .p span{color:var(--muted);font-size:14px;margin-left:4px}
+  .sidecard .fine{display:flex;gap:6px;align-items:flex-start}
+  .toast{left:50%;right:auto;transform:translateX(-50%);bottom:28px;width:max-content;max-width:90%;animation:none}
+}
+.sheetwrap{position:absolute;inset:0;z-index:15;display:flex;align-items:flex-end}
+.scrim{position:absolute;inset:0;background:rgba(20,18,12,.5)}
+.sheet{position:relative;background:var(--surface);width:100%;border-radius:22px 22px 0 0;padding:14px 18px 22px;display:flex;flex-direction:column;gap:14px;max-height:90%;overflow:auto;box-shadow:0 -10px 40px rgba(0,0,0,.2)}
+.sheet h2{font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:-.02em;margin:0}
+.sheet .lockup{display:flex;align-items:center;gap:8px;margin-top:6px}
+.sheet .lockup .logo{height:22px;width:auto}
+.sheet .lockup b{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.05em}
+.sheet .plist{background:var(--bg)}
+.grab{width:40px;height:4px;border-radius:2px;background:var(--line-2);align-self:center;flex:none}
+.locbar{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line-2);border-radius:12px;padding:10px 12px;font-weight:600;font-size:13.5px;width:100%;text-align:left;color:var(--ink)}
+.locbar .grow{flex:1;min-width:0}
+.locbar u{text-decoration:none;color:var(--gold-text);font-weight:700}
+.locbar svg{color:var(--gold-text)}
+.locline{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:var(--ink-2)}
+.locline svg{color:var(--gold-text);margin-top:2px}
+.dist{color:var(--ink);font-weight:600}
+.sub{display:block;font-size:12.5px;color:var(--muted);font-weight:400;margin-top:2px}
+.drow{display:grid;gap:2px;padding:12px 14px;border-top:1px solid var(--line);font-size:14px}
+.drow:first-child{border-top:0}
+pre.export{font-size:12px;overflow-x:auto;margin:10px 0 0;white-space:pre-wrap;color:var(--ink-2)}
+@media (min-width:900px) and (pointer:fine){
+  .sheetwrap{align-items:center;justify-content:center}
+  .sheet{width:min(480px,92%);border-radius:22px;padding:22px 24px}
+  .grab{display:none}
+}
+.where{background:none;border:0;cursor:pointer}
+:root{--map-land:#ECE7DA;--map-road:#FFFFFF;--map-water:#B9CFDA;--map-park:#D3DEC3}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--map-land:#2C2A22;--map-road:#45413A;--map-water:#2F4450;--map-park:#33402C}}
+:root[data-theme="dark"]{--map-land:#2C2A22;--map-road:#45413A;--map-water:#2F4450;--map-park:#33402C}
+svg.art{width:100%!important;height:100%!important;display:block;stroke-width:initial}
+.thumb{overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.band svg.art,.band img{position:absolute;inset:0;width:100%!important;height:100%!important;object-fit:cover}
+.gallery{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.gallery::-webkit-scrollbar{display:none}
+.ph{width:132px;height:99px;border-radius:12px;overflow:hidden;border:0;padding:0;flex:none;background:var(--line);display:block;cursor:pointer}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph.sm{width:76px;height:57px;border-radius:10px}
+.ph.add{display:grid;place-items:center;align-content:center;gap:2px;border:1.5px dashed var(--line-2);background:transparent;color:var(--muted);font-size:12px;font-weight:600}
+.rphotos{display:flex;gap:8px;margin-top:6px}
+.map{border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.map svg{display:block;width:100%;height:auto}
+.mapbar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;font-size:13px;color:var(--ink-2);flex-wrap:wrap}
+.mapbar a{text-decoration:none;color:var(--ink)}
+.hgrid{display:grid;grid-template-columns:44px repeat(7,1fr);gap:3px;align-items:center;font-size:11px}
+.hgrid .h{text-align:center;color:var(--muted);font-weight:700;padding-bottom:2px}
+.hgrid .r{color:var(--muted);font-weight:600;font-variant-numeric:tabular-nums}
+.hcell{height:22px;border-radius:5px;border:1px solid var(--line-2);background:transparent;padding:0}
+.hcell[aria-pressed="true"]{background:var(--ink);border-color:var(--ink)}
+.paused .hcell[aria-pressed="true"]{background:var(--line-2);border-color:var(--line-2)}
+.custom{display:grid;gap:6px;font-size:14px}
+.custom input[type=range]{width:100%;accent-color:var(--gold)}
+.lightbox{position:absolute;inset:0;z-index:25;background:rgba(15,14,10,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:20px}
+.lightbox .big{width:min(720px,100%);aspect-ratio:4/3;border-radius:14px;overflow:hidden;background:#000}
+.lightbox .big img{width:100%;height:100%;object-fit:contain}
+.lightbox .ctl{display:flex;align-items:center;gap:14px;color:#EDE8DA;font-size:14px;font-weight:600}
+.lightbox .iconbtn{color:#EDE8DA;border:1px solid #ffffff33}
+.lightbox .x{position:absolute;top:14px;right:14px}
+.lightbox .x svg{transform:rotate(45deg)}
+</style>
+
+</head>
+<body>
+<div class="stage">
+  <div class="phone"><div class="app" id="app">
+    <nav class="topnav" id="topnav" aria-label="Main"></nav>
+    <header class="bar" id="bar"></header>
+    <main class="screen" id="screen"></main>
+    <nav class="tabs" id="tabs" aria-label="Main"></nav>
+    <div class="toast" id="toast" role="status" hidden></div>
+    <div id="sheet"></div>
+    <div class="splash" id="splash" aria-hidden="true">
+      <div class="lockup"><svg class="logo" viewBox="0 0 56 64"><rect x="0" y="2" width="11" height="60" rx="2.5" fill="var(--logo-bar)"/><path d="M46 7L22 32l24 25" fill="none" stroke="var(--gold)" stroke-width="10.5" stroke-linejoin="miter"/></svg><b>knack</b></div>
+      <p>Got a knack? Get paid.</p>
+    </div>
+  </div></div>
+
+
+</div>
+
+<script>
+const I = {
+  search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
+  explore:'<path d="M4 10.5L12 4l8 6.5V20a1 1 0 01-1 1h-4.5v-6h-5v6H5a1 1 0 01-1-1z"/>',
+  cal:'<rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+  inbox:'<path d="M5 5h14a1.5 1.5 0 011.5 1.5v9A1.5 1.5 0 0119 17H10l-5 4v-4a1.5 1.5 0 01-1.5-1.5v-9A1.5 1.5 0 015 5z"/>',
+  wallet:'<rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 10h18M16 14.5h2"/>',
+  user:'<circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c1-3.6 3.8-5.5 7-5.5s6 1.9 7 5.5"/>',
+  shield:'<path d="M12 3l7 3v5.5c0 4.3-3 7.7-7 9-4-1.3-7-4.7-7-9V6z"/><path d="M9 12l2 2 4-4"/>',
+  check:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+  verified:'<path d="M12 2.5l2.4 1.8 3-.1.9 2.8 2.4 1.8-.9 2.8.9 2.8-2.4 1.8-.9 2.8-3-.1L12 21.5l-2.4-1.8-3 .1-.9-2.8-2.4-1.8.9-2.8-.9-2.8 2.4-1.8.9-2.8 3 .1z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>',
+  back:'<path d="M15 5l-7 7 7 7"/>',
+  chev:'<path d="M9 5l7 7-7 7"/>',
+  plus:'<path d="M12 5v14M5 12h14"/>',
+  lock:'<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/>',
+  clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  flag:'<path d="M5 21V4M5 4h11l-2 4 2 4H5"/>',
+  pin:'<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0113 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>',
+  sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/>',
+  moon:'<path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/>',
+  auto:'<rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8 20h8M12 16.5V20"/>',
+  send:'<path d="M5 12l15-7-5.5 15-2.5-6z"/><path d="M12 14l8-9"/>',
+  trash:'<path d="M4 7h16M9.5 7V4.5h5V7M6 7l1 13h10l1-13"/>',
+  bell:'<path d="M6 16V11a6 6 0 0112 0v5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 004 0"/>',
+  card:'<rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3 10h18"/>',
+  help:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 114 2c-.9.6-1.5 1.1-1.5 2.2M12 17h.01"/>',
+  refresh:'<path d="M4 12a8 8 0 0114-5.3L20 9M20 4v5h-5M20 12a8 8 0 01-14 5.3L4 15M4 20v-5h5"/>',
+  all:'<rect x="4" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8"/>',
+  hair:'<circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M8 7.5L20 18M8 16.5L20 6"/>',
+  bike:'<circle cx="6" cy="16" r="3.5"/><circle cx="18" cy="16" r="3.5"/><path d="M6 16l4-8h4l4 8M9 6h3M10 8l2 8"/>',
+  tutor:'<path d="M3 8.5L12 4l9 4.5-9 4.5z"/><path d="M7 10.5V15c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-4.5M21 8.5V14"/>',
+  photo:'<rect x="3" y="7" width="18" height="13" rx="2.5"/><circle cx="12" cy="13.5" r="3.5"/><path d="M9 7l1.5-2.5h3L15 7"/>',
+  move:'<path d="M3.5 7.5L12 3l8.5 4.5v9L12 21l-8.5-4.5z"/><path d="M3.5 7.5L12 12l8.5-4.5M12 12v9"/>',
+  ride:'<path d="M5 16v-5l2-5h10l2 5v5M3.5 16h17M5 11h14"/><circle cx="8" cy="16.5" r="1.5"/><circle cx="16" cy="16.5" r="1.5"/>',
+  lend:'<path d="M14.5 6.5a4 4 0 00-5 5L4 17l3 3 5.5-5.5a4 4 0 005-5l-2.5 2.5-2.5-.5-.5-2.5z"/>',
+  other:'<path d="M12 3.5l2.2 5.3 5.3 2.2-5.3 2.2L12 18.5l-2.2-5.3L4.5 11l5.3-2.2z"/>',
+};
+const ic = (n, cls='') => `<svg class="i ${cls}" viewBox="0 0 24 24" aria-hidden="true">${I[n]}</svg>`;
+const LOGO = '<svg class="logo" viewBox="0 0 56 64" aria-hidden="true"><rect x="0" y="2" width="11" height="60" rx="2.5" fill="var(--logo-bar)"/><path d="M46 7L22 32l24 25" fill="none" stroke="var(--gold)" stroke-width="10.5" stroke-linejoin="miter"/></svg>';
+const STARP = 'M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.9 6.8 19.6l1-5.8L3.5 9.7l5.9-.8z';
+const STAR = `<svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="${STARP}"/></svg>`;
+const stars = n => `<span class="stars" aria-label="${n} out of 5">${STAR.repeat(n)}</span>`;
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR'});
+const eur = n => fmt.format(n);
+const fee = p => Math.round(p*0.05*100)/100;
+const net = p => Math.round(p*0.95*100)/100;
+const now = () => new Date().toTimeString().slice(0,5);
+
+const CATS = [['all','All'],['hair','Haircuts'],['bike','Bikes'],['tutor','Tutoring'],['photo','Photos'],['move','Moving'],['ride','Rides'],['lend','Lend'],['other','Other']];
+const CC = {hair:'#A9573C',bike:'#3F6A4D',tutor:'#4A5783',photo:'#855069',move:'#96692C',ride:'#2E6A6E',lend:'#5E5A4E',other:'#6E5E3D'};
+const catName = id => (CATS.find(c=>c[0]===id)||[,'Other'])[1];
+
+/* ---------- example work photos (illustrations), map, hours ---------- */
+function artSVG(kind,v){
+  v=v||0; const o='<svg class="art" viewBox="0 0 160 120" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'; let b='';
+  if(kind==='hair'){
+    const bg=['#C9A68A','#8FA3B8','#B7A4C4'][v], sk=['#E2B48F','#9A6445','#C98E68'][v], hc=['#2B2118','#5A3A22','#1B1B1B'][v], sh=['#3F4A5A','#6E5E3D','#2E6A6E'][v];
+    const top=v===2?'M54 58 C50 20 110 20 106 58 C102 38 58 38 54 58Z':'M56 54 C56 28 104 28 104 54 C100 42 60 42 56 54Z';
+    b=`<rect width="160" height="120" fill="${bg}"/><rect width="160" height="120" fill="#fff" opacity=".08"/><ellipse cx="80" cy="130" rx="54" ry="36" fill="${sh}"/><rect x="71" y="74" width="18" height="22" rx="7" fill="${sk}"/><ellipse cx="56" cy="60" rx="3.5" ry="6" fill="${sk}"/><ellipse cx="104" cy="60" rx="3.5" ry="6" fill="${sk}"/><ellipse cx="80" cy="57" rx="24" ry="28" fill="${sk}"/><path d="${top}" fill="${hc}"/><rect x="55.5" y="48" width="4" height="12" rx="2" fill="${hc}" opacity=".45"/><rect x="100.5" y="48" width="4" height="12" rx="2" fill="${hc}" opacity=".45"/>${v===1?`<path d="M64 74 C70 86 90 86 96 74" fill="none" stroke="${hc}" stroke-width="5" stroke-linecap="round" opacity=".7"/>`:''}`;
+  } else if(kind==='bike'){
+    const bg=['#A9C2B0','#D8C8A8','#9FB1C9'][v], fr=['#B8432F','#1F3A5F','#2E2B22'][v];
+    b=`<rect width="160" height="120" fill="${bg}"/><rect y="98" width="160" height="22" fill="#000" opacity=".12"/><circle cx="46" cy="80" r="20" fill="none" stroke="#222" stroke-width="4"/><circle cx="114" cy="80" r="20" fill="none" stroke="#222" stroke-width="4"/><circle cx="46" cy="80" r="14" fill="none" stroke="#222" stroke-width=".8" opacity=".5"/><circle cx="114" cy="80" r="14" fill="none" stroke="#222" stroke-width=".8" opacity=".5"/><path d="M46 80 L70 54 L100 54 L114 80 M70 54 L84 80 L46 80 M84 80 L100 54" fill="none" stroke="${fr}" stroke-width="4.5" stroke-linejoin="round"/><path d="M70 54 L67 45 M61 45 L74 45" stroke="#222" stroke-width="4" stroke-linecap="round"/><path d="M100 54 L97 43 L106 41" fill="none" stroke="#222" stroke-width="3.5" stroke-linecap="round"/><circle cx="84" cy="80" r="4" fill="#222"/>`;
+  } else if(kind==='tutor'){
+    const bg=['#C8B79A','#9DB0A3','#B9A2A2'][v], f=[['∫ x² dx = x³/3 + C','x = 3 ± √5'],['det(A − λI) = 0','λ₁ = 2,  λ₂ = 5'],["f′(x) = 2x + 3","f′(x) = 0 → x = −1,5"]][v];
+    b=`<rect width="160" height="120" fill="${bg}"/><rect x="26" y="14" width="108" height="90" rx="4" fill="#FBF8EF" transform="rotate(-3 80 60)"/><g transform="rotate(-3 80 60)">${[34,46,58,70,82,94].map(y=>`<line x1="30" x2="130" y1="${y}" y2="${y}" stroke="#CFD8E6" stroke-width=".8"/>`).join('')}<line x1="40" x2="40" y1="16" y2="102" stroke="#E7A9A0" stroke-width=".8"/><text x="46" y="43" font-family="Georgia, serif" font-size="10" fill="#2B3A67">${f[0]}</text><text x="46" y="67" font-family="Georgia, serif" font-size="10" fill="#2B3A67">${f[1]}</text><path d="M46 84 q6 -6 12 0 t12 0" fill="none" stroke="#B8432F" stroke-width="1.2"/></g><g transform="rotate(-32 120 98)"><rect x="96" y="94" width="46" height="7" fill="#E8B530"/><path d="M142 94 L151 97.5 L142 101Z" fill="#E8C9A0"/><rect x="92" y="94" width="5" height="7" fill="#D98C8C"/></g>`;
+  } else if(kind==='photo'){
+    const sky=['#F2C38B','#9CC3E0','#C9A2C8'][v], sun=['#E8773B','#F7E08A','#F3B6A0'][v], h1=['#8A6B45','#5E8A66','#6E5A86'][v], h2=['#5E4A30','#3F6A4D','#4A3D5E'][v];
+    b=`<rect width="160" height="120" fill="${sky}"/><circle cx="${[112,44,118][v]}" cy="${[46,34,40][v]}" r="15" fill="${sun}"/><path d="M0 82 C36 58 70 70 92 78 C114 88 132 62 160 70 V120 H0Z" fill="${h1}"/><path d="M0 98 C48 82 104 106 160 92 V120 H0Z" fill="${h2}"/>${v===1?'<path d="M104 92 l6 -16 l6 16z" fill="#2F5A3E"/><path d="M118 94 l5 -12 l5 12z" fill="#2F5A3E"/>':''}`;
+  } else if(kind==='move'){
+    const bg=['#D9CDB8','#BFC9C9','#D3C1B0'][v]; const bx=[[[20,62,48,40],[72,70,40,32],[40,30,36,32],[116,78,30,24]],[[28,54,60,48],[92,70,44,32],[44,26,34,28]],[[16,70,40,32],[60,58,44,44],[108,66,36,36],[70,30,28,28]]][v];
+    b=`<rect width="160" height="120" fill="${bg}"/><rect y="102" width="160" height="18" fill="#8C7A60" opacity=".5"/>${bx.map(([x,y,w,h])=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#C79A5E" stroke="#8E6A3A" stroke-width="1"/><rect x="${x+w/2-3}" y="${y}" width="6" height="${h}" fill="#E4CFA0" opacity=".85"/>`).join('')}`;
+  } else if(kind==='ride'){
+    const sky=['#F4C9A0','#A9C7E3','#2E3A5A'][v], fld=['#A7A06A','#7FA36B','#34422F'][v], sun=['#F08A4B','#FFF3C4','#E9E4C8'][v];
+    b=`<rect width="160" height="120" fill="${sky}"/><circle cx="${[40,120,118][v]}" cy="${[52,30,26][v]}" r="${[12,10,7][v]}" fill="${sun}"/><rect y="68" width="160" height="52" fill="${fld}"/><path d="M72 68 L88 68 L150 120 L10 120Z" fill="#4A4A48"/><path d="M80 72 V76 M80 82 V89 M80 96 V106 M80 112 V120" stroke="#F2E3B3" stroke-width="2.5"/>${v===2?'<circle cx="30" cy="20" r="1" fill="#fff"/><circle cx="60" cy="34" r="1" fill="#fff"/><circle cx="96" cy="16" r="1" fill="#fff"/>':''}`;
+  } else if(kind==='lend'){
+    const bg=['#C9B28F','#A8B4A6','#B9A58E'][v]; let dots=''; for(let x=12;x<160;x+=16) for(let y=12;y<120;y+=16) dots+=`<circle cx="${x}" cy="${y}" r="1.4" fill="#000" opacity=".18"/>`;
+    b=`<rect width="160" height="120" fill="${bg}"/>${dots}<g transform="translate(${[24,60,30][v]} 30)"><rect x="0" y="0" width="44" height="18" rx="5" fill="#2E6A6E"/><rect x="44" y="6" width="16" height="6" fill="#777"/><rect x="10" y="16" width="14" height="30" rx="4" fill="#222"/></g><g transform="translate(${[92,18,100][v]} 24) rotate(18)"><rect x="12" y="0" width="7" height="58" rx="3" fill="#A0733F"/><rect x="0" y="0" width="31" height="11" rx="2" fill="#555"/></g><path transform="translate(${[62,112,70][v]} 70)" d="M6 0 a8 8 0 1 0 8 12 l22 22 6 -6 -22 -22 a8 8 0 0 0 -12 -8 l5 5 -3 5 -5 -1z" fill="#8A8F96"/>`;
+  } else if(kind==='talk'){
+    const bg=['#D8C7A4','#A9BBC8','#C9B3A0'][v], t=[['Hoi!','Hoe gaat het?'],['Lekker weer!','Zeker weten'],['Dank je wel!','Graag gedaan']][v];
+    b=`<rect width="160" height="120" fill="${bg}"/><path d="M14 18 h84 a8 8 0 0 1 8 8 v22 a8 8 0 0 1 -8 8 h-64 l-12 10 v-10 h-8 a8 8 0 0 1 -8 -8 v-22 a8 8 0 0 1 8 -8z" fill="#FBF8EF"/><text x="24" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#211F18">${t[0]}</text><path d="M62 64 h84 a8 8 0 0 1 8 8 v22 a8 8 0 0 1 -8 8 h-8 v10 l-12 -10 h-64 a8 8 0 0 1 -8 -8 v-22 a8 8 0 0 1 8 -8z" fill="#211F18"/><text x="70" y="88" font-family="Arial, sans-serif" font-weight="700" font-size="12" fill="#EDE8DA">${t[1]}</text>`;
+  } else if(kind==='poster'){
+    const wall=['#D6CFC2','#B9C4C9','#CFC1B6'][v], p=['#D6A83E','#B8432F','#2E6A6E'][v];
+    b=`<rect width="160" height="120" fill="${wall}"/><rect x="44" y="10" width="72" height="100" fill="#FBF8EF" stroke="#0000001a"/><circle cx="80" cy="46" r="${[20,14,24][v]}" fill="${p}"/><rect x="52" y="74" width="56" height="8" fill="#211F18"/><rect x="52" y="86" width="40" height="5" fill="#211F18" opacity=".5"/><rect x="52" y="95" width="30" height="5" fill="#211F18" opacity=".5"/>`;
+  } else if(kind==='plant'){
+    const bg=['#CFD9C4','#E3D5BD','#BFCBD0'][v], pot=['#B8643E','#D6CFC2','#2E3A5A'][v];
+    b=`<rect width="160" height="120" fill="${bg}"/><rect y="96" width="160" height="24" fill="#000" opacity=".1"/>${[[-35,70],[-10,62],[20,66],[45,74],[0,54]].map(([a,l],i)=>`<ellipse cx="80" cy="${78-l/2}" rx="${9-(i%2)*2}" ry="${l/2}" fill="${['#3F6A4D','#4F7B5A','#2F5A3E'][i%3]}" transform="rotate(${a} 80 78)"/>`).join('')}<path d="M60 76 H100 L94 104 H66Z" fill="${pot}"/>`;
+  }
+  return o+b+'</svg>';
+}
+const phHTML = ph => ph.src ? `<img src="${ph.src}" alt="Photo of previous work">` : artSVG(ph.art,ph.v);
+const ART = {l1:'hair',l2:'bike',l3:'tutor',l4:'photo',l5:'move',l6:'ride',l7:'lend',l8:'talk',m1:'poster',m2:'plant'};
+function readImgs(files,max,cb){
+  const arr=[...files].slice(0,max); if(!arr.length) return; const out=[]; let n=0;
+  arr.forEach((f,k)=>{ const r=new FileReader(); r.onload=()=>{ const img=new Image(); img.onload=()=>{ const sc=Math.min(1,900/Math.max(img.width,img.height)); const c=document.createElement('canvas'); c.width=Math.round(img.width*sc); c.height=Math.round(img.height*sc); c.getContext('2d').drawImage(img,0,0,c.width,c.height); out[k]={src:c.toDataURL('image/jpeg',.82)}; if(++n===arr.length) cb(out.filter(Boolean)); }; img.onerror=()=>{ if(++n===arr.length) cb(out.filter(Boolean)); }; img.src=r.result; }; r.readAsDataURL(f); });
+}
+function mapHTML(l){
+  if(l.mode==='online') return '';
+  const W=320,H=170,cx=W/2,cy=H/2, r=l.mode==='visit'?radiusOf(l):0.6;
+  let span=Math.max(r*1.25,1.5), you=null;
+  if(S.loc){ const dx=(S.loc.lng-l.lng)*111.32*Math.cos(l.lat*Math.PI/180), dy=(l.lat-S.loc.lat)*110.57; span=Math.max(span,Math.hypot(dx,dy)*1.25); you=[dx,dy]; }
+  const s=(H/2-16)/span; const yx=you?[Math.min(W-12,Math.max(12,cx+you[0]*s)),Math.min(H-12,Math.max(12,cy+you[1]*s))]:null;
+  const lat=l.lat.toFixed(3), lng=l.lng.toFixed(3);
+  return `<div class="map"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Map around ${esc(l.area)}">
+    <rect width="${W}" height="${H}" fill="var(--map-land)"/>
+    <ellipse cx="62" cy="40" rx="36" ry="18" fill="var(--map-park)"/><rect x="212" y="16" width="62" height="40" rx="10" fill="var(--map-park)"/>
+    <path d="M-10 128 C60 106 120 146 190 124 S300 96 340 110" stroke="var(--map-water)" stroke-width="10" fill="none"/>
+    <path d="M0 140 H320 M260 0 V170 M92 0 V170 M0 104 L320 36" stroke="var(--map-road)" stroke-width="2.5" fill="none"/>
+    <path d="M0 72 H320 M152 0 V170 M0 18 L320 152 M36 170 L244 0" stroke="var(--map-road)" stroke-width="5" fill="none"/>
+    ${l.mode==='visit'?`<circle cx="${cx}" cy="${cy}" r="${r*s}" fill="#D6A83E" fill-opacity=".16" stroke="#D6A83E" stroke-width="1.5" stroke-dasharray="5 4"/>`:`<circle cx="${cx}" cy="${cy}" r="${Math.max(18,r*s)}" fill="#D6A83E" fill-opacity=".22"/>`}
+    ${yx?`<circle cx="${yx[0]}" cy="${yx[1]}" r="7" fill="#3B6FD4" stroke="#fff" stroke-width="3"/><text x="${yx[0]+11}" y="${yx[1]+4}" font-size="11" font-weight="700" font-family="Arial, sans-serif" fill="#3B6FD4">You</text>`:''}
+    <path transform="translate(${cx-11} ${cy-28})" d="M11 0C5 0 0 4.7 0 10.6 0 18 11 28 11 28S22 18 22 10.6C22 4.7 17 0 11 0Z" fill="#211F18"/><circle cx="${cx}" cy="${cy-17}" r="4" fill="#D6A83E"/>
+  </svg>
+  <div class="mapbar"><span>${l.mode==='visit'?`Travels up to ${radiusOf(l)} km from ${esc(l.area)}`:`Around ${esc(l.area)} · exact address after booking`}</span><a class="smallbtn" href="https://www.google.com/maps/search/?api=1&amp;query=${lat},${lng}" target="_blank" rel="noopener">${ic('pin','s')}Open in Google Maps</a></div></div>`;
+}
+const DAYS=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'], HOURS=[...Array(15)].map((_,i)=>i+8), pad=n=>String(n).padStart(2,'0');
+function availSummary(){
+  const out=[]; DAYS.forEach(d=>{ const hs=HOURS.filter(h=>S.avail[d+'-'+h]); if(!hs.length) return; const rs=[]; let st=hs[0],pr=hs[0];
+    hs.slice(1).forEach(h=>{ if(h===pr+1) pr=h; else { rs.push([st,pr+1]); st=pr=h; } }); rs.push([st,pr+1]);
+    out.push(`<b>${d}</b> ${rs.map(([a,b])=>`${pad(a)}:00–${pad(b)}:00`).join(', ')}`); });
+  return out.join(' · ')||'No hours set yet.';
+}
+function seedAvail(){ const a={}; [['Mon',[19,20]],['Tue',[13,14,15]],['Wed',[8,19,20]],['Thu',[14,15,16]],['Sat',[10,11,12,13,14]],['Sun',[13,14,15,16]]].forEach(([d,hs])=>hs.forEach(h=>a[d+'-'+h]=1)); return a; }
+
+/* ---------- location & privacy ---------- */
+const PLACES={
+  l1:{area:'Roombeek',lat:52.2310,lng:6.8990,mode:'place'},
+  l2:{area:'UT campus',lat:52.2426,lng:6.8520,mode:'visit',radius:5},
+  l3:{area:'UT campus',lat:52.2440,lng:6.8560,mode:'place',online:true},
+  l4:{area:'Centrum',lat:52.2215,lng:6.8937,mode:'visit',radius:4},
+  l5:{area:'Boswinkel',lat:52.2130,lng:6.8680,mode:'visit',radius:8},
+  l6:{area:'Station',lat:52.2226,lng:6.8905,mode:'place'},
+  l7:{area:'Calslaan, UT',lat:52.2445,lng:6.8490,mode:'place'},
+  l8:{area:'Centrum',lat:52.2205,lng:6.8960,mode:'place',online:true},
+  m1:{area:'Online',lat:52.2300,lng:6.8700,mode:'online'},
+  m2:{area:'Hengelosestraat',lat:52.2300,lng:6.8700,mode:'visit'},
+};
+const AREAS=[['UT campus',52.2426,6.8540],['Enschede centrum',52.2215,6.8937],['Roombeek',52.2310,6.8990],['Hengelosestraat',52.2300,6.8700],['Boswinkel',52.2130,6.8680],['Wesselerbrink',52.1960,6.8780]];
+const CENTRE={lat:52.2215,lng:6.8937};
+function km(a,b){const R=6371,t=x=>x*Math.PI/180;const dLat=t(b.lat-a.lat),dLng=t(b.lng-a.lng);const h=Math.sin(dLat/2)**2+Math.cos(t(a.lat))*Math.cos(t(b.lat))*Math.sin(dLng/2)**2;return 2*R*Math.asin(Math.sqrt(h));}
+const fmtKm = d => d<1 ? (Math.max(100,Math.round(d*10)*100))+' m' : d.toFixed(1).replace('.',',')+' km';
+const radiusOf = l => l.mine && l.mode==='visit' ? S.travel : l.radius;
+const distOf = l => (S.loc && l.mode!=='online') ? km(S.loc,l) : null;
+function modeText(l){
+  const extra = l.online ? ' · or online' : '';
+  if(l.mode==='online') return 'Online';
+  if(l.mode==='visit') return `Comes to you · up to ${radiusOf(l)} km from ${esc(l.area)}${extra}`;
+  return `At ${l.mine?'your':esc(l.who)+"'s"} place · ${esc(l.area)}${extra}`;
+}
+const modeShort = l => l.mode==='online'?'Online':l.mode==='visit'?'Comes to you':esc(l.area);
+function inRange(l){
+  if(!S.loc || S.maxKm==='any' || l.mode==='online' || l.online) return true;
+  const d=km(S.loc,l);
+  return l.mode==='visit' ? d<=radiusOf(l) : d<=S.maxKm;
+}
+function loadConsent(){ try{ return JSON.parse(localStorage.getItem('knack-consent')); }catch(e){ return null; } }
+function saveConsent(c){ try{ localStorage.setItem('knack-consent',JSON.stringify(c)); }catch(e){} }
+const DATAUSE=[
+  ['Account','Your name and student email, to check that you are a student.','contract','until you delete your account'],
+  ['Bookings and payments','To handle payments and meet Dutch tax rules.','legal obligation','7 years'],
+  ['Chats','For safety and to settle disputes.','legitimate interest','12 months'],
+  ['Reviews','To build trust between students.','legitimate interest','while your account exists'],
+  ['Location','To show services near you.','your consent','only on your device, rounded to about 100 m'],
+];
+function sheetHTML(){
+  if(S.lb){ const it=S.lb.items[S.lb.i]; return `<div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo"><button class="iconbtn x" data-a="lbClose" aria-label="Close">${ic('plus')}</button><div class="big">${phHTML(it)}</div><div class="ctl">${S.lb.items.length>1?`<button class="iconbtn" data-a="lbNav" data-k="-1" aria-label="Previous">${ic('back')}</button>`:''}<span>${S.lb.i+1} / ${S.lb.items.length}</span>${S.lb.items.length>1?`<button class="iconbtn" data-a="lbNav" data-k="1" aria-label="Next">${ic('chev')}</button>`:''}</div></div>`; }
+  if(S.sheet==='privacy'){
+    const c=S.cdraft;
+    return `<div class="sheetwrap"><div class="scrim"></div><div class="sheet" role="dialog" aria-modal="true" aria-label="Your privacy">
+      <div class="lockup">${LOGO}<b>knack</b></div>
+      <h2>Your privacy at Knack</h2>
+      <p style="margin:0">We use your data to run Knack: your account, bookings, payments and chats. Everything else is your choice, and you can change it any time in Profile › Privacy & data.</p>
+      <div class="plist">
+        <div class="pitem"><span class="grow">Necessary<span class="sub">Account, bookings, payments, chat safety</span></span><span class="val">Always on</span></div>
+        <div class="pitem"><span class="grow">Product analytics<span class="sub">Anonymous usage stats to improve Knack</span></span><button class="switch" role="switch" aria-checked="${!!c.analytics}" aria-label="Product analytics" data-a="cdraft" data-k="analytics"></button></div>
+        <div class="pitem"><span class="grow">News and tips by email</span><button class="switch" role="switch" aria-checked="${!!c.marketing}" aria-label="News and tips by email" data-a="cdraft" data-k="marketing"></button></div>
+      </div>
+      <p class="fine">We will ask separately before we use your location.</p>
+      <div class="two"><button class="btn sec" data-a="consentNec">Only necessary</button><button class="btn sec" data-a="consentSave">Save my choices</button></div>
+      <button class="btn" data-a="consentAll">Accept all</button>
+      <button class="btn ghost" data-a="privacyRead">Read what we store and why</button>
+    </div></div>`;
+  }
+  if(S.sheet==='loc'){
+    let body;
+    if(S.locStep==='areas') body=`<h2>Where are you?</h2><p class="fine">Pick the area closest to you. We only use it to work out distances.</p>
+      <div class="plist">${AREAS.map((a,i)=>`<button class="pitem" data-a="locArea" data-i="${i}">${ic('pin')}<span class="grow">${a[0]}</span>${S.loc&&S.loc.name===a[0]?ic('check','s'):''}</button>`).join('')}</div>
+      <button class="btn ghost" data-a="sheetClose">Cancel</button>`;
+    else if(S.loc) body=`<h2>Distance</h2>
+      <div class="locbar">${ic('pin','s')}<span class="grow">${esc(S.loc.name)}</span><button class="smallbtn" data-a="locAreas">Change</button></div>
+      <h3 class="lbl" style="margin:4px 0 0">How far are you willing to travel?</h3>
+      <div class="slots">${[1,3,5,10,'any'].map(k=>`<button class="slot" data-a="maxKm" data-k="${k}" aria-pressed="${String(S.maxKm)===String(k)}">${k==='any'?'Any distance':k+' km'}</button>`).join('')}</div>
+      <div class="custom"><label for="kmrange">Or set your own distance: <b id="kmval">${S.maxKm==='any'?'any':String(S.maxKm).replace('.',',')+' km'}</b></label><input type="range" id="kmrange" min="0.5" max="25" step="0.5" value="${S.maxKm==='any'?25:S.maxKm}"></div>
+      <p class="fine">Students who come to you are shown when you're inside their travel area. Online services are always shown.</p>
+      <button class="btn" data-a="sheetClose">Show services</button>
+      <button class="btn ghost" data-a="locClear">Stop using my location</button>`;
+    else body=`<h2>Find students near you</h2>
+      <p style="margin:0">Knack can use your location to show how far away each service is. Before your browser asks, here's what we do with it:</p>
+      <ul class="dellist"><li>We round it to about 100 metres.</li><li>It stays on your device and is never shown to other students.</li><li>You can remove it any time in Profile › Privacy & data.</li></ul>
+      <button class="btn" data-a="locGPS">${ic('pin','s')}Use my current location</button>
+      <button class="btn sec" data-a="locAreas">Choose my area instead</button>
+      <button class="btn ghost" data-a="sheetClose">Not now</button>`;
+    return `<div class="sheetwrap"><div class="scrim" data-a="sheetClose"></div><div class="sheet" role="dialog" aria-modal="true" aria-label="Location"><div class="grab"></div>${body}</div></div>`;
+  }
+  return '';
+}
+function setLoc(name,lat,lng,how){
+  S.loc={name,lat:Math.round(lat*1000)/1000,lng:Math.round(lng*1000)/1000,how};
+  S.locStep='set'; render(); toast(`Showing distances from ${name}`);
+}
+
+const L0=(s,id,i)=>s.listings.find(l=>l.id===id).reviews[i];
+function seed(){
+  const s = {
+    stack:[{name:'explore'}], cat:'all', q:'', exam:false, theme:'system', notif:true, deleted:false,
+    me:{name:'Sanne', full:'Sanne de Vries', ini:'SV', col:'#8A6414', study:'Industrial Design · University of Twente'},
+    listings:[
+      {id:'l1',cat:'hair',title:'Fade or trim haircut at my place',who:'Daan',ini:'DV',col:'#A9573C',study:'Creative Business · Saxion',price:12,unit:'per cut',rating:4.9,count:38,jobs:41,done:'100%',reply:'~30 min',
+       desc:'Clean fades, trims and beard line-ups. I have cut hair for my whole house for two years. Bring a photo of what you want. Takes about 35 minutes, 5 minutes walk from campus.',
+       slots:['Tonight 19:00','Thu 17:30','Sat 11:00','Sat 12:00'],
+       reviews:[{n:'Jesse',s:5,t:'Better than the barber in town and a third of the price.',w:'2 days ago'},{n:'Mo',s:5,t:'On time, clean fade, relaxed vibe.',w:'last week'}]},
+      {id:'l2',cat:'bike',title:'Flat tyre, brakes & gears fixed',who:'Yusuf',ini:'YA',col:'#3F6A4D',study:'Mechanical Engineering · UT',price:8,unit:'from, per job',rating:4.8,count:62,jobs:70,done:'99%',reply:'~1 hour',
+       desc:'I come to your bike on campus or in the city centre. Flat tyre €8, brake adjustment €10, full check €18. Parts at cost price, receipt included.',
+       slots:['Today 17:00','Wed 12:30','Fri 10:00'],
+       reviews:[{n:'Anouk',s:5,t:'Fixed my back tyre between two lectures. Lifesaver.',w:'3 days ago'},{n:'Ravi',s:4,t:'Good work, arrived 10 min late but messaged ahead.',w:'2 weeks ago'}]},
+      {id:'l3',cat:'tutor',title:'Calculus & Linear Algebra tutoring',who:'Lotte',ini:'LB',col:'#4A5783',study:'Applied Mathematics · UT',price:15,unit:'per hour',rating:5.0,count:21,jobs:34,done:'100%',reply:'~2 hours',
+       desc:'Second-year AM student, TA for Calculus 1A. Exam prep, homework help or going through old exams together. At the library or online.',
+       slots:['Thu 16:30','Mon 19:00','Tue 14:00'],
+       reviews:[{n:'Timo',s:5,t:'Passed my resit thanks to three sessions with Lotte.',w:'last month'}]},
+      {id:'l4',cat:'photo',title:'Portraits & LinkedIn headshots',who:'Mila',ini:'MK',col:'#855069',study:'Photography · AKI ArtEZ',price:25,unit:'per session',rating:4.9,count:17,jobs:19,done:'100%',reply:'~3 hours',
+       desc:'30-minute outdoor shoot around campus or the Oude Markt. 8 edited photos within three days. Perfect for internship applications.',
+       slots:['Sat 15:00','Sun 10:30'],
+       reviews:[{n:'Sanne',s:5,t:'Great eye for light, got my photos the next day.',w:'last week'}]},
+      {id:'l5',cat:'move',title:'Two strong hands for your move',who:'Bram',ini:'BT',col:'#96692C',study:'Civil Engineering · UT',price:14,unit:'per hour, per person',rating:4.7,count:29,jobs:33,done:'97%',reply:'~1 hour',
+       desc:'Bram and Thijs help you carry boxes, furniture and IKEA flat-packs. Stairs are no problem. You arrange the van, we do the lifting.',
+       slots:['Sat 09:00','Sun 13:00'],
+       reviews:[{n:'Femke',s:5,t:'Moved a 3rd-floor room in under two hours.',w:'2 weeks ago'}]},
+      {id:'l6',cat:'ride',title:'Ride to Amsterdam, Friday',who:'Noor',ini:'NH',col:'#2E6A6E',study:'Business Administration · UT',price:9,unit:'per seat',rating:4.8,count:44,jobs:52,done:'98%',reply:'~15 min',
+       desc:'Driving home every Friday, 3 seats free. Leaving Enschede station 17:00, dropping off at Amstel station. Cheaper than the train.',
+       slots:['Fri 17:00'],
+       reviews:[{n:'Lars',s:5,t:'Easy pickup, good music.',w:'last week'}]},
+      {id:'l7',cat:'lend',title:'Drill & full toolkit to borrow',who:'Kasper',ini:'KJ',col:'#5E5A4E',study:'Electrical Engineering · UT',price:4,unit:'per day',rating:4.9,count:12,jobs:15,done:'100%',reply:'~1 hour',
+       desc:'Bosch cordless drill with bits, plus hammer, level and screwdriver set. Pick up and return at Calslaan.',
+       slots:['Today','Tomorrow','This weekend'],
+       reviews:[{n:'Iris',s:5,t:'Everything charged and complete. Saved me buying a drill.',w:'last month'}]},
+      {id:'l8',cat:'other',title:'Dutch conversation practice',who:'Eva',ini:'EM',col:'#6E5E3D',study:'Psychology · UT',price:10,unit:'per hour',rating:4.8,count:15,jobs:22,done:'100%',reply:'~2 hours',
+       desc:'Practise everyday Dutch over coffee. For internationals preparing for a job, an internship or just the supermarket.',
+       slots:['Wed 15:00','Thu 11:00'],
+       reviews:[{n:'Lucas',s:5,t:'Patient and fun. I finally dare to order in Dutch.',w:'2 weeks ago'}]},
+      {id:'m1',cat:'other',title:'Poster & flyer design',who:'Sanne',mine:true,ini:'SV',col:'#8A6414',study:'Industrial Design · UT',price:20,unit:'per design',rating:4.9,count:9,jobs:11,done:'100%',reply:'~1 hour',
+       desc:'Posters and flyers for study associations, parties and events. Two rounds of changes included.',
+       slots:['Mon','Wed','Thu'],reviews:[{n:'Lisa',s:5,t:'Our activity poster looked amazing.',w:'last month'}]},
+      {id:'m2',cat:'other',title:'Plant & pet sitting',who:'Sanne',mine:true,ini:'SV',col:'#8A6414',study:'Industrial Design · UT',price:6,unit:'per day',rating:5.0,count:4,jobs:4,done:'100%',reply:'~1 hour',
+       desc:'Going home for the weekend? I water your plants and feed your cat.',slots:['Weekends'],reviews:[]},
+    ],
+    bookings:[
+      {id:'b1',lid:'l2',slot:'Yesterday 17:30',price:8,status:'done',hours:47},
+      {id:'b2',lid:'l3',slot:'Thu 16:30',price:15,status:'held'},
+      {id:'b3',lid:'l4',slot:'Last week',price:25,status:'reviewed',review:{s:5,t:'Great eye for light, got my photos the next day.'}},
+    ],
+    jobs:[
+      {id:'j1',client:'Lisa',service:'Poster & flyer design',when:'Thu 14:00',amount:20,status:'held'},
+      {id:'j2',client:'Omar',service:'Plant & pet sitting',when:'Last weekend',amount:12,status:'await'},
+    ],
+    convos:[
+      {id:'c1',who:'Yusuf',ini:'YA',col:'#3F6A4D',about:'Flat tyre, brakes & gears fixed',lid:'l2',unread:1,msgs:[
+        {d:'Yesterday'},
+        {f:'them',t:"Hi Sanne! I'm at the Horst building at 17:30. Is your bike at the racks by the entrance?",at:'16:58'},
+        {f:'me',t:'Yes! Black Gazelle with a red bag on the back.',at:'17:02'},
+        {d:'Today'},
+        {f:'them',t:'All done: new inner tube and the brakes are adjusted. Could you confirm the job in Bookings when you have checked it?',at:'09:14'},
+      ]},
+      {id:'c2',who:'Lisa',ini:'LK',col:'#855069',about:'Poster & flyer design · you are the provider',unread:1,msgs:[
+        {d:'Today'},
+        {f:'them',t:'Hi! Can the poster be A3 and use our association colours, green and white?',at:'11:20'},
+      ]},
+      {id:'c3',who:'Lotte',ini:'LB',col:'#4A5783',about:'Calculus & Linear Algebra tutoring',lid:'l3',unread:0,msgs:[
+        {d:'Mon'},
+        {f:'me',t:'Hi Lotte, I booked Thursday. Could we focus on eigenvalues?',at:'20:41'},
+        {f:'them',t:'Sure! See you Thursday 16:30 at the library, 2nd floor. Bring your old exams.',at:'21:05'},
+      ]},
+    ],
+    paidOut:186, jobsDone:14,
+    avail:{'Mon-Evening':1,'Tue-Afternoon':1,'Wed-Morning':1,'Wed-Evening':1,'Thu-Afternoon':1,'Sat-Morning':1,'Sat-Afternoon':1,'Sun-Afternoon':1},
+    sel:{}, draft:{}, loc:null, maxKm:5, travel:3, sheet:null, locStep:'ask', showExport:false,
+    consent:loadConsent(), cdraft:{analytics:false,marketing:false},
+  };
+  s.listings.forEach(l=>{ Object.assign(l,PLACES[l.id]||{}); if(ART[l.id]) l.photos=[0,1,2].map(v=>({art:ART[l.id],v})); });
+  s.avail=seedAvail();
+  L0(s,'l1',0).photos=[{art:'hair',v:2}]; L0(s,'l2',0).photos=[{art:'bike',v:1}]; L0(s,'l4',0).photos=[{art:'photo',v:2}];
+  return s;
+}
+let S = seed();
+const $ = id => document.getElementById(id);
+const view = () => S.stack[S.stack.length-1];
+const L = id => S.listings.find(l=>l.id===id);
+const B = id => S.bookings.find(b=>b.id===id);
+const C = id => S.convos.find(c=>c.id===id);
+const tabOf = n => ({explore:'explore',listing:'explore',checkout:'explore',how:'explore',bookings:'bookings',booking:'bookings',review:'bookings',dispute:'bookings',inbox:'inbox',chat:'inbox',earn:'earn',add:'earn',profile:'profile',del:'profile',privacy:'profile'})[n];
+
+/* theme */
+const rootEl=document.documentElement;
+const initialTheme=rootEl.getAttribute('data-theme');
+function applyTheme(){
+  if(S.theme==='system'){ initialTheme?rootEl.setAttribute('data-theme',initialTheme):rootEl.removeAttribute('data-theme'); }
+  else rootEl.setAttribute('data-theme',S.theme);
+}
+function isDark(){
+  const a=rootEl.getAttribute('data-theme');
+  if(a) return a==='dark';
+  return matchMedia('(prefers-color-scheme: dark)').matches;
+}
+
+let toastT;
+function toast(msg){ const t=$('toast'); t.innerHTML=ic('check','s')+esc(msg); t.hidden=false; clearTimeout(toastT); toastT=setTimeout(()=>t.hidden=true,2600); }
+function go(v){ S.stack.push(v); render(true); }
+function back(){ if(S.stack.length>1) S.stack.pop(); render(true); }
+function tab(n){ S.stack=[{name:n}]; render(true); }
+
+const av = (p,cls='') => `<div class="av ${cls}" style="--c:${p.col}">${esc(p.ini)}</div>`;
+const thumb = l => `<div class="thumb" style="--c:${CC[l.cat]}">${l.photos&&l.photos.length?phHTML(l.photos[0]):ic(l.cat)}</div>`;
+const barBack = title => `<button class="iconbtn" data-a="back" aria-label="Back">${ic('back')}</button><h1>${esc(title)}</h1>`;
+const PILL = {held:['held','Paid · held by Knack'],done:['done','Confirm the job'],released:['released','Completed'],reviewed:['reviewed','Completed'],dispute:['dispute','Problem reported'],cancelled:['cancelled','Cancelled · refunded']};
+const pill = s => `<span class="pill ${PILL[s][0]}">${PILL[s][1]}</span>`;
+const unreadTotal = () => S.convos.reduce((a,c)=>a+(c.unread||0),0);
+
+function visible(){
+  const q=S.q.trim().toLowerCase();
+  const ls=S.listings.filter(l => (S.cat==='all'||l.cat===S.cat) && !(l.mine && S.exam) && inRange(l) &&
+    (!q || (l.title+' '+l.who+' '+catName(l.cat)+' '+l.desc).toLowerCase().includes(q)));
+  if(S.loc) ls.sort((a,b)=>(distOf(a)??99)-(distOf(b)??99));
+  return ls;
+}
+function listHTML(){
+  const ls=visible();
+  if(!ls.length) return S.loc&&S.maxKm!=='any' ? `<div class="empty">Nothing within ${S.maxKm} km yet.<br><button class="smallbtn" data-a="locOpen" style="margin-top:10px">Travel further</button></div>` : `<div class="empty">Nobody offers that yet.<br>Got a knack for it? Add it under <b>Earn</b>.</div>`;
+  return `<div class="rows cards">${ls.map(l=>`<button class="row" data-a="open" data-id="${l.id}">${thumb(l)}
+    <div><p class="rt">${esc(l.title)}</p>
+      <div class="rm"><span>${esc(l.mine?'You':l.who)} · ${esc(l.study.split(' · ')[1]||'')}</span>
+      <span>${distOf(l)!=null?`<span class="dist">${fmtKm(distOf(l))}</span> · `:''}${modeShort(l)}</span>
+      ${l.count?`<span class="r">${STAR}${l.rating.toFixed(1)}<span style="color:var(--muted);font-weight:400">(${l.count})</span></span>`:''}
+      ${l.isNew?'<span class="badge new">New</span>':''}${l.mine?'<span class="badge you">Yours</span>':''}</div></div>
+    <div class="rp">${eur(l.price)}<small>${esc(l.unit)}</small></div></button>`).join('')}</div>`;
+}
+function openChatWith(who, about, lid){
+  let c=S.convos.find(x=>x.who===who);
+  if(!c){ const l=lid&&L(lid); c={id:'c'+Date.now(),who,ini:l?l.ini:who.slice(0,2).toUpperCase(),col:l?l.col:'#5E5A4E',about,lid,unread:0,msgs:[{d:'Today'},{f:'sys',t:`Say hi to ${who}. Keep chats and payments on Knack so your booking stays protected.`}]}; S.convos.unshift(c); }
+  go({name:'chat',id:c.id});
+}
+
+const R = {
+  explore(){
+    $('bar').className='bar home';
+    $('bar').innerHTML = `<div class="brandrow">${LOGO}<b>knack</b></div><button class="where" data-a="locOpen" aria-label="Change location">${ic('pin','s')}${S.loc?esc(S.loc.name):'Enschede'}</button><button class="iconbtn" data-a="themeFlip" aria-label="Switch to ${isDark()?'light':'dark'} theme">${ic(isDark()?'sun':'moon')}</button>`;
+    return `
+      <div><p class="greet">Hoi ${esc(S.me.name)},</p><h2 class="hello">what do you need done?</h2></div>
+      <label class="search">${ic('search','s')}<input id="q" type="search" placeholder="Haircut, bike, calculus…" value="${esc(S.q)}" aria-label="Search services"></label>
+      <button class="locbar" data-a="locOpen">${ic('pin','s')}<span class="grow">${S.loc?`${esc(S.loc.name)} · ${S.maxKm==='any'?'any distance':'up to '+String(S.maxKm).replace('.',',')+' km'}`:'Set your location to see what is close by'}</span><u>${S.loc?'Change':'Set'}</u></button>
+      <div class="cats" role="group" aria-label="Categories">${CATS.map(([id,n])=>`<button class="cat" data-a="cat" data-id="${id}" aria-pressed="${S.cat===id}"><span class="ci">${ic(id)}</span>${n}</button>`).join('')}</div>
+      <button class="trustline" data-a="how">${ic('shield','s')}<span>Your money is held by Knack until the job is done.</span><u>How it works</u></button>
+      <div class="sec"><h2>${S.loc?'Closest to you':'In Enschede'}</h2><span id="cnt">${visible().length} students</span></div>
+      <div id="results">${listHTML()}</div>`;
+  },
+  how(){
+    $('bar').className='bar'; $('bar').innerHTML = barBack('How Knack works');
+    return `<h2 class="big">Safe for both sides, from booking to payout.</h2>
+      <ol class="steps">
+        <li><div><b>Book and pay upfront</b><span>Pay with iDEAL or card when you book. Knack holds the money; the student isn't paid yet.</span></div></li>
+        <li><div><b>The job gets done</b><span>Chat in the app to agree on details. The student marks the job as done.</span></div></li>
+        <li><div><b>You confirm</b><span>Happy? Confirm and the money is released. Not happy? Report a problem within 48 hours and the payment is frozen.</span></div></li>
+        <li><div><b>Both sides review</b><span>Reviews build a reputation that goes beyond one group chat. No-shows get a strike.</span></div></li>
+      </ol>
+      <p class="fine">Knack charges 5% to the customer and 5% to the student. That's how we earn: only when students earn.</p>`;
+  },
+  listing(v){
+    const l=L(v.id); const sel=S.sel[l.id]??0;
+    const slotsHTML=`<div class="slots">${l.slots.map((s,i)=>`<button class="slot" data-a="slot" data-id="${l.id}" data-i="${i}" aria-pressed="${i===sel}">${esc(s)}</button>`).join('')}</div>`;
+    $('bar').className='bar'; $('bar').innerHTML = barBack('');
+    return `
+      <div class="band" style="--c:${CC[l.cat]}">${l.photos&&l.photos.length?phHTML(l.photos[0]):ic(l.cat)}<span class="cattag">${catName(l.cat)}</span></div>
+      <div class="detail"><div class="main">
+      <div><h2 class="big">${esc(l.title)}</h2></div>
+      <div class="who">${av(l)}<div class="grow"><div class="n">${esc(l.mine?l.who+' (you)':l.who)} ${ic('verified','s')}</div><div class="s">${esc(l.study)}</div></div>
+        ${l.mine?'':`<button class="smallbtn only-m" data-a="msgListing" data-id="${l.id}">${ic('inbox','s')}Message</button>`}</div>
+      <div class="facts">
+        <span>${STAR}<b>${l.count?l.rating.toFixed(1):'New'}</b> ${l.count?`(${l.count} reviews)`:''}</span>
+        <span><b>${l.jobs}</b> jobs done</span>
+        <span><b>${l.done}</b> show-up rate</span>
+        <span>Replies ${l.reply}</span>
+      </div>
+      ${(()=>{const d=distOf(l); const out=l.mode==='visit'&&d!=null&&d>radiusOf(l)&&!l.mine;
+        return `<div class="locline">${ic('pin','s')}<span>${modeText(l)}${d!=null?` · <b>${fmtKm(d)}</b> from you`:''}${!S.loc?` · <button class="smallbtn" data-a="locOpen" style="padding:3px 8px">Show distance</button>`:''}</span></div>${out?`<div class="note warn">You're outside ${esc(l.who)}'s travel area (${radiusOf(l)} km). Send a message to ask if they can still come.</div>`:''}`;})()}
+      <p style="margin:0">${esc(l.desc)}</p>
+      <h3 class="lbl">Previous work</h3>
+      <div class="gallery">${(l.photos||[]).map((ph,i)=>`<button class="ph" data-a="lb" data-id="${l.id}" data-i="${i}" aria-label="Open photo ${i+1}">${phHTML(ph)}</button>`).join('')}${l.mine?`<label class="ph add" for="myph">${ic('plus')}<span>Add photos</span><input type="file" id="myph" data-id="${l.id}" accept="image/*" multiple hidden></label>`:''}${!(l.photos||[]).length&&!l.mine?'<p class="fine">No photos yet.</p>':''}</div>
+      ${l.mode!=='online'?`<h3 class="lbl">Location</h3>${mapHTML(l)}`:''}
+      <div class="only-m" style="display:flex;flex-direction:column;gap:18px"><h3 class="lbl">Pick a time</h3>${slotsHTML}</div>
+      <h3 class="lbl">Reviews</h3>
+      <div class="reviews">${l.reviews.length?l.reviews.map((r,ri)=>`<div class="review"><div class="rh">${esc(r.n)} <span>${esc(r.w)}</span></div>${stars(r.s)}<p>${esc(r.t)}</p>${(r.photos||[]).length?`<div class="rphotos">${r.photos.map((ph,j)=>`<button class="ph sm" data-a="lb" data-id="${l.id}" data-r="${ri}" data-i="${j}" aria-label="Open review photo">${phHTML(ph)}</button>`).join('')}</div>`:''}</div>`).join(''):'<p class="fine">No reviews yet. New students get a "New" badge for their first 5 jobs.</p>'}</div>
+      </div>
+      <div class="side only-d"><div class="sidecard">
+        <div class="p"><b>${eur(l.price)}</b><span>${esc(l.unit)}</span></div>
+        ${l.mine?`<p class="fine">This is your service.</p><button class="btn sec" data-a="tab" data-id="earn">Manage it in Earn</button>`:`
+        <h3 class="lbl" style="margin:0">Pick a time</h3>${slotsHTML}
+        <button class="btn" data-a="checkout" data-id="${l.id}">Book ${esc(l.slots[sel])}</button>
+        <p class="fine">${ic('shield','s')}<span>Your money is held by Knack until the job is done.</span></p>
+        <button class="btn sec" data-a="msgListing" data-id="${l.id}">${ic('inbox','s')}Message ${esc(l.who)}</button>`}
+      </div></div>
+      </div>
+      ${l.mine
+        ? `<div class="cta only-m"><button class="btn sec" data-a="tab" data-id="earn">This is your service · manage it in Earn</button></div>`
+        : `<div class="buybar only-m"><div class="p"><b>${eur(l.price)}</b><span>${esc(l.unit)}</span></div><button class="btn" data-a="checkout" data-id="${l.id}">Book ${esc(l.slots[sel])}</button></div>`}`;
+  },
+  checkout(v){
+    const l=L(v.id); const sel=S.sel[l.id]??0; const f=fee(l.price); const tot=l.price+f;
+    $('bar').className='bar'; $('bar').innerHTML = barBack('Confirm and pay');
+    return `
+      <div class="who">${thumb(l)}<div class="grow"><div class="n">${esc(l.title)}</div><div class="s">${esc(l.who)} · ${esc(l.slots[sel])}</div></div></div>
+      <div class="box lines">
+        <div class="line"><span class="m">Service</span><span>${eur(l.price)}</span></div>
+        <div class="line"><span class="m">Knack service fee (5%)</span><span>${eur(f)}</span></div>
+        <div class="line tot"><span>Total</span><span>${eur(tot)}</span></div>
+      </div>
+      <div class="escrow"><div><b>${eur(tot)} is held by Knack</b>${esc(l.who)} is paid after you confirm the job is done, or automatically after 48 hours if you don't report a problem.</div></div>
+      <h3 class="lbl">Pay with</h3>
+      <div class="pay">
+        <label><input type="radio" name="pm" id="pm-ideal" checked> iDEAL</label>
+        <label><input type="radio" name="pm" id="pm-card"> Credit or debit card</label>
+      </div>
+      <p class="fine">Free cancellation up to 24 hours before. If ${esc(l.who)} doesn't show up, you get a full refund.</p>
+      <div class="cta"><button class="btn" data-a="pay" data-id="${l.id}">${ic('lock','s')}Pay ${eur(tot)}</button></div>`;
+  },
+  bookings(){
+    $('bar').className='bar'; $('bar').innerHTML = `<h1 style="font-size:24px;font-weight:800">Bookings</h1>`;
+    const bs=[...S.bookings].reverse();
+    if(!bs.length) return `<div class="empty">No bookings yet.</div>`;
+    const need=bs.filter(b=>b.status==='done').length;
+    return `${need?`<div class="note warn"><b>${need} job${need>1?'s':''} waiting for you to confirm.</b> The student is paid after you confirm.</div>`:''}
+      <div class="rows">${bs.map(b=>{const l=L(b.lid);return `<button class="row" data-a="booking" data-id="${b.id}" style="grid-template-columns:56px 1fr">${thumb(l)}
+        <div><p class="rt">${esc(l.title)}</p><div class="rm"><span>${esc(l.who)} · ${esc(b.slot)}</span></div><div style="margin-top:7px">${pill(b.status)}</div></div></button>`}).join('')}</div>`;
+  },
+  booking(v){
+    const b=B(v.id); const l=L(b.lid); const tot=b.price+fee(b.price); const st=b.status;
+    $('bar').className='bar'; $('bar').innerHTML = barBack('Booking');
+    const steps=[['Booked and paid',`${eur(tot)} held by Knack`],[`${l.who} does the job`,b.slot],['You confirm','Or automatically after 48 hours'],[`${l.who} gets paid`,eur(net(b.price))+' after the 5% fee']];
+    let tl;
+    if(st==='cancelled') tl=`<p style="margin:0">Booking cancelled. ${eur(tot)} was refunded.</p>`;
+    else tl=`<ol class="timeline">${steps.map((s,i)=>{
+      let c='';
+      if(st==='held') c=i===0?'ok':i===1?'now':'';
+      if(st==='done') c=i<=1?'ok':i===2?'now':'';
+      if(st==='released'||st==='reviewed') c='ok';
+      if(st==='dispute') c=i<=1?'ok':i===2?'bad':'';
+      return `<li class="${c}"><div class="tdot">${c==='ok'?ic('check','s'):c==='bad'?'!':i+1}</div><div><b>${esc(s[0])}</b><span>${esc(s[1])}</span></div></li>`;}).join('')}</ol>`;
+    let actions='';
+    if(st==='held') actions=`<button class="btn sim" data-a="simDone" data-id="${b.id}">Simulate: ${esc(l.who)} marks the job as done</button><button class="btn ghost" data-a="cancel" data-id="${b.id}">Cancel booking (free until 24 h before)</button>`;
+    if(st==='done') actions=`<button class="btn" data-a="confirm" data-id="${b.id}">${ic('check','s')}Job done, release payment</button><button class="btn outline-danger" data-a="dispute" data-id="${b.id}">${ic('flag','s')}Report a problem</button>`;
+    if(st==='released') actions=`<button class="btn" data-a="review" data-id="${b.id}">Review ${esc(l.who)}</button>`;
+    return `
+      <div class="who">${thumb(l)}<div class="grow"><div class="n">${esc(l.title)}</div><div class="s">${esc(l.who)} · ${esc(b.slot)}</div></div></div>
+      <div>${pill(st)}</div>
+      ${st==='done'?`<div class="note warn"><b>${esc(l.who)} marked this job as done.</b> Check it, then confirm. If you do nothing, payment is released automatically in ${b.hours} hours.</div>`:''}
+      ${st==='dispute'?`<div class="note bad"><b>Payment is frozen.</b> Knack support hears both sides and replies within 24 hours. Reason: ${esc(b.reason||'')}</div>`:''}
+      ${st==='reviewed'&&b.review?`<div class="box"><div style="font-weight:700;margin-bottom:4px">Your review</div>${stars(b.review.s)}<p style="margin:6px 0 0">${esc(b.review.t||'No comment')}</p></div>`:''}
+      <div class="box">${tl}</div>
+      <button class="btn sec" data-a="msgListing" data-id="${l.id}">${ic('inbox','s')}Message ${esc(l.who)}</button>
+      <div class="box lines">
+        <div class="line"><span class="m">Service</span><span>${eur(b.price)}</span></div>
+        <div class="line"><span class="m">Service fee</span><span>${eur(fee(b.price))}</span></div>
+        <div class="line tot"><span>Paid</span><span>${eur(tot)}</span></div>
+      </div>
+      ${actions?`<div class="cta">${actions}</div>`:''}`;
+  },
+  review(v){
+    const b=B(v.id); const l=L(b.lid); const d=S.draft; d.s=d.s||5;
+    $('bar').className='bar'; $('bar').innerHTML = barBack('Leave a review');
+    return `<div class="who">${av(l,'lg')}<div class="grow"><div class="n" style="font-size:18px">How was ${esc(l.who)}?</div><div class="s">${esc(l.title)}</div></div></div>
+      <div class="starpick" role="group" aria-label="Rating">${[1,2,3,4,5].map(n=>`<button data-a="star" data-n="${n}" aria-pressed="${n<=d.s}" aria-label="${n} stars"><svg viewBox="0 0 24 24"><path d="${STARP}"/></svg></button>`).join('')}</div>
+      <div class="tagrow">${['On time','Friendly','Great result','Good value'].map(t=>`<button class="tagbtn" data-a="qtag" data-t="${t}" aria-pressed="${(d.tags||[]).includes(t)}">${t}</button>`).join('')}</div>
+      <div class="field"><label for="rvph">Add photos of the result (optional)</label><div class="gallery" id="rvprev">${(d.photos||[]).map(ph=>`<div class="ph sm">${phHTML(ph)}</div>`).join('')}${(d.photos||[]).length<3?`<label class="ph sm add" for="rvph">${ic('plus')}<span>Photo</span></label>`:''}</div><input type="file" id="rvph" accept="image/*" multiple hidden></div>
+      <div class="field"><label for="rv">Tell other students more (optional)</label><textarea id="rv" placeholder="What went well? What could be better?">${esc(d.t||'')}</textarea></div>
+      <p class="fine">Your review appears on ${esc(l.who)}'s profile. ${esc(l.who)} reviews you as a customer too.</p>
+      <div class="cta"><button class="btn" data-a="sendReview" data-id="${b.id}">Post review</button></div>`;
+  },
+  dispute(v){
+    const b=B(v.id); const l=L(b.lid);
+    $('bar').className='bar'; $('bar').innerHTML = barBack('Report a problem');
+    return `<p style="margin:0">Your payment of <b>${eur(b.price+fee(b.price))}</b> stays frozen until this is solved. ${esc(l.who)} isn't paid in the meantime.</p>
+      <div class="radios">${["Didn't show up",'Job not done as agreed','Something else'].map((r,i)=>`<label><input type="radio" name="reason" id="r${i}" value="${esc(r)}" ${i===0?'checked':''}> ${esc(r)}</label>`).join('')}</div>
+      <div class="field"><label for="dtxt">What happened?</label><textarea id="dtxt" placeholder="Describe the problem."></textarea></div>
+      <div class="cta"><button class="btn danger" data-a="sendDispute" data-id="${b.id}">Submit report</button></div>`;
+  },
+  inbox(){
+    $('bar').className='bar'; $('bar').innerHTML = `<h1 style="font-size:24px;font-weight:800">Inbox</h1>`;
+    if(!S.convos.length) return `<div class="empty">No messages yet. Tap "Message" on any service to start a chat.</div>`;
+    return `<div class="rows">${S.convos.map(c=>{const last=[...c.msgs].reverse().find(m=>m.t)||{t:'',at:''};
+      return `<button class="convo ${c.unread?'unread':''}" data-a="chat" data-id="${c.id}">${av(c)}
+        <div style="min-width:0"><div class="nm">${esc(c.who)}</div><div class="ab">${esc(c.about)}</div><div class="lm">${last.f==='me'?'You: ':''}${esc(last.t)}</div></div>
+        <div class="tm">${esc(last.at||'')}${c.unread?'<span class="ub" aria-label="unread"></span>':''}</div></button>`}).join('')}</div>
+      <p class="fine" style="text-align:center">Chats stay on Knack, so support can help if something goes wrong.</p>`;
+  },
+  chat(v){
+    const c=C(v.id); c.unread=0;
+    $('bar').className='bar line'; $('bar').innerHTML = `<button class="iconbtn" data-a="back" aria-label="Back">${ic('back')}</button><div class="chathead">${av(c,'sm')}<div style="min-width:0"><div class="nm">${esc(c.who)}</div><div class="ab">${esc(c.about)}</div></div></div>${c.lid?`<button class="smallbtn" data-a="open" data-id="${c.lid}">View</button>`:''}`;
+    return `<div class="chat" id="chat">
+      <div class="msg sys">${ic('shield','s')}<span>Keep chats and payments on Knack. Deals made outside the app aren't protected.</span></div>
+      ${c.msgs.map(m=>m.d?`<div class="day">${esc(m.d)}</div>`:m.f==='sys'?`<div class="msg sys">${ic('shield','s')}<span>${esc(m.t)}</span></div>`:`<div class="msg ${m.f}">${esc(m.t)}<span class="at">${esc(m.at)}</span></div>`).join('')}
+      ${c.typing?`<div class="typing">${esc(c.who)} is typing…</div>`:''}
+      </div>
+      <form class="composer" id="chatform" data-id="${c.id}"><input id="msg" autocomplete="off" placeholder="Message ${esc(c.who)}" aria-label="Message"><button class="sendbtn" type="submit" aria-label="Send">${ic('send','s')}</button></form>`;
+  },
+  earn(){
+    $('bar').className='bar'; $('bar').innerHTML = `<h1 style="font-size:24px;font-weight:800">Earn</h1>`;
+    const held=S.jobs.filter(j=>j.status==='held'||j.status==='await').reduce((a,j)=>a+net(j.amount),0);
+    const mine=S.listings.filter(l=>l.mine);
+    const days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'], parts=['Morning','Afternoon','Evening'];
+    return `
+      <div class="earn">
+        <div><div class="k">Paid out this month</div><div class="v">${eur(S.paidOut)}</div></div>
+        <div class="row3"><div><b>${eur(held)}</b><span>held for you</span></div><div><b>${S.jobsDone}</b><span>jobs done</span></div><div><b>4.9</b><span>your rating</span></div></div>
+      </div>
+      <div class="box toggle"><div class="txt"><b>Exam week mode</b><span>${S.exam?'Your services are hidden. Nobody can book you.':'Hide all your services with one tap during exams.'}</span></div>
+        <button class="switch" role="switch" aria-checked="${S.exam}" aria-label="Exam week mode" data-a="exam"></button></div>
+      <div class="box" style="display:grid;gap:12px"><div><b>How far will you travel for jobs?</b><span class="sub">For services where you go to the customer, like plant sitting.</span></div>
+        <div class="slots">${[1,3,5,10].map(k=>`<button class="slot" data-a="travel" data-k="${k}" aria-pressed="${S.travel===k}">${k} km</button>`).join('')}</div></div>
+      <h3 class="lbl">Jobs for you</h3>
+      <div class="box jobs">${S.jobs.map(j=>`<div class="jrow"><div><div class="t">${esc(j.service)} · ${esc(j.client)}</div><div class="s">${esc(j.when)} · ${eur(net(j.amount))} for you</div></div>
+        ${j.status==='held'?`<button class="smallbtn p" data-a="jobDone" data-id="${j.id}">Mark done</button>`:j.status==='await'?`<button class="smallbtn sim" data-a="jobPaid" data-id="${j.id}">Simulate: ${esc(j.client)} confirms</button>`:`<span class="pill paid">Paid out</span>`}
+        ${j.status==='held'?`<div style="grid-column:1/-1"><span class="pill held">Paid by client · held by Knack</span></div>`:j.status==='await'?`<div style="grid-column:1/-1"><span class="pill await">Waiting for ${esc(j.client)} to confirm</span></div>`:''}</div>`).join('')}</div>
+      <h3 class="lbl">When can you work?</h3>
+      <div class="box ${S.exam?'paused':''}" style="display:grid;gap:12px">
+        <p class="fine" style="margin:0">Tap the hours you're free. Customers can only book you then. Update it when your timetable changes each quartile.</p>
+        <div class="hgrid"><span></span>${DAYS.map(d=>`<span class="h">${d}</span>`).join('')}
+        ${HOURS.map(h=>`<span class="r">${pad(h)}:00</span>${DAYS.map(d=>`<button class="hcell" data-a="hour" data-k="${d}-${h}" aria-pressed="${!!S.avail[d+'-'+h]}" aria-label="${d} ${pad(h)}:00 to ${pad(h+1)}:00"></button>`).join('')}`).join('')}</div>
+        <p class="fine" style="margin:0">${availSummary()}</p>
+      </div>
+      <h3 class="lbl">Your services</h3>
+      <div class="rows">${mine.map(l=>`<button class="row" data-a="open" data-id="${l.id}">${thumb(l)}<div><p class="rt">${esc(l.title)}</p><div class="rm">${S.exam?'<span class="pill hidden">Hidden during exams</span>':'<span class="pill live">Live</span>'}</div></div><div class="rp">${eur(l.price)}<small>${esc(l.unit)}</small></div></button>`).join('')}</div>
+      <button class="btn dark" data-a="add">${ic('plus','s')}Offer a new skill</button>`;
+  },
+  add(){
+    $('bar').className='bar'; $('bar').innerHTML = barBack('Offer a skill');
+    return `<form class="f" id="addform">
+      <div class="field"><label for="a-title">What's your knack?</label><input id="a-title" required maxlength="60" placeholder="e.g. Guitar lessons for beginners"></div>
+      <div class="field"><label for="a-cat">Category</label><select id="a-cat">${CATS.slice(1).map(([id,n])=>`<option value="${id}">${n}</option>`).join('')}</select></div>
+      <div class="two">
+        <div class="field"><label for="a-price">Your price (€)</label><input id="a-price" type="number" min="1" max="500" step="0.5" value="12" required></div>
+        <div class="field"><label for="a-unit">Per</label><select id="a-unit"><option>per hour</option><option>per job</option><option>per day</option><option>per seat</option></select></div>
+      </div>
+      <div class="field"><label for="a-ph">Photos of previous work</label><div class="gallery" id="a-prev"><label class="ph sm add" for="a-ph">${ic('plus')}<span>Photos</span></label></div><input type="file" id="a-ph" accept="image/*" multiple hidden><span class="sub">Real photos of your work get you booked faster. Up to 6.</span></div>
+      <div class="field"><label for="a-desc">Describe it</label><textarea id="a-desc" placeholder="What's included, where, how long it takes, your experience."></textarea></div>
+      <p class="fine">Similar services in Enschede cost €8–€25. You choose your price and your hours. Customers pay upfront, so you never chase money. You keep 95% of your price.</p>
+      <div class="cta"><button class="btn" type="submit">Publish service</button></div>
+    </form>`;
+  },
+  profile(){
+    $('bar').className='bar'; $('bar').innerHTML = `<h1 style="font-size:24px;font-weight:800">Profile</h1>`;
+    const me=S.me;
+    return `
+      <div class="who">${av(me,'lg')}<div class="grow"><div class="n" style="font-size:18px">${esc(me.full)} ${ic('verified','s')}</div><div class="s">${esc(me.study)}</div></div></div>
+      <div class="facts"><span>${STAR}<b>4.9</b> as student</span><span><b>5.0</b> as customer</span><span><b>0</b> no-shows</span><span><b>0</b> strikes</span></div>
+      <p class="grouplbl">Appearance</p>
+      <div class="seg" role="group" aria-label="Theme">
+        ${[['light','Light','sun'],['dark','Dark','moon'],['system','Auto','auto']].map(([k,n,i])=>`<button data-a="theme" data-id="${k}" aria-pressed="${S.theme===k}">${ic(i,'s')}${n}</button>`).join('')}
+      </div>
+      <p class="grouplbl">Account</p>
+      <div class="plist">
+        <div class="pitem">${ic('bell')}<span class="grow">Notifications</span><button class="switch" role="switch" aria-checked="${S.notif}" aria-label="Notifications" data-a="notif"></button></div>
+        <div class="pitem">${ic('card')}<span class="grow">Payment method</span><span class="val">iDEAL · ING</span></div>
+        <button class="pitem" data-a="privacy">${ic('lock')}<span class="grow">Privacy & data</span><span class="val">GDPR</span>${ic('chev','s')}</button>
+        <button class="pitem" data-a="locOpen">${ic('pin')}<span class="grow">Location</span><span class="val">${S.loc?esc(S.loc.name):'Not shared'}</span>${ic('chev','s')}</button>
+        <div class="pitem">${ic('shield')}<span class="grow">Student verification</span><span class="val">s.devries@student.utwente.nl</span></div>
+      </div>
+      <p class="grouplbl">Help</p>
+      <div class="plist">
+        <button class="pitem" data-a="how">${ic('help')}<span class="grow">How payments work</span>${ic('chev','s')}</button>
+        <details class="info"><summary>Cancellations & no-shows</summary><ul>
+          <li>Customers cancel for free up to 24 hours before. Later, 50% goes to the student.</li>
+          <li>A student who doesn't show up: full refund for the customer and one strike.</li>
+          <li>3 strikes: your services are hidden for 30 days.</li></ul></details>
+        <details class="info"><summary>Disputes & safety</summary><ul>
+          <li>Report a problem within 48 hours. The payment is frozen until it's solved.</li>
+          <li>Knack support hears both sides and decides within 24 hours.</li>
+          <li>Every student is verified with a UT, Saxion or ArtEZ email address.</li></ul></details>
+        <details class="info"><summary>Taxes</summary><ul>
+          <li>What you earn on Knack is income. You get a yearly overview for your tax return.</li>
+          <li>Only legal services are allowed. New services are checked before they go live.</li></ul></details>
+      </div>
+      <div class="plist">
+        <button class="pitem" data-a="reset">${ic('refresh')}<span class="grow">Reset demo data</span></button>
+        <button class="pitem red" data-a="del">${ic('trash')}<span class="grow">Delete account</span>${ic('chev','s')}</button>
+      </div>
+      <p class="fine" style="text-align:center">Knack · Got a knack? Get paid.</p>`;
+  },
+  privacy(){
+    $('bar').className='bar'; $('bar').innerHTML = barBack('Privacy & data');
+    const c=S.consent||{analytics:false,marketing:false};
+    return `<p style="margin:0">Knack follows the GDPR (AVG). We only use your data to run Knack, and you decide about everything else. We never sell your data.</p>
+      <p class="grouplbl">Your choices</p>
+      <div class="plist">
+        <div class="pitem"><span class="grow">Necessary<span class="sub">Account, bookings, payments, chat safety</span></span><span class="val">Always on</span></div>
+        <div class="pitem"><span class="grow">Location<span class="sub">${S.loc?`${esc(S.loc.name)} · only on this device`:'Not shared'}</span></span>${S.loc?`<button class="smallbtn" data-a="locClear">Remove</button>`:`<button class="smallbtn" data-a="locOpen">Share</button>`}</div>
+        <div class="pitem"><span class="grow">Product analytics<span class="sub">Anonymous usage stats to improve Knack</span></span><button class="switch" role="switch" aria-checked="${!!c.analytics}" aria-label="Product analytics" data-a="consentToggle" data-k="analytics"></button></div>
+        <div class="pitem"><span class="grow">News and tips by email</span><button class="switch" role="switch" aria-checked="${!!c.marketing}" aria-label="News and tips by email" data-a="consentToggle" data-k="marketing"></button></div>
+      </div>
+      <p class="grouplbl">What we keep, why, and for how long</p>
+      <div class="plist">${DATAUSE.map(([t,why,basis,keep])=>`<div class="drow"><b>${t}</b><span>${why}</span><span class="sub">Legal basis: ${basis} · Kept: ${keep}</span></div>`).join('')}</div>
+      <p class="grouplbl">Your rights</p>
+      <div class="plist">
+        <button class="pitem" data-a="download">${ic('download')}<span class="grow">Download my data</span>${ic('chev','s')}</button>
+        <div class="pitem">${ic('user')}<span class="grow">Correct your details<span class="sub">Edit your name and study in your profile</span></span></div>
+        <button class="pitem red" data-a="del">${ic('trash')}<span class="grow">Delete my account and data</span>${ic('chev','s')}</button>
+      </div>
+      ${S.showExport?`<details class="box" open><summary style="font-weight:600;cursor:pointer">Preview of your data file</summary><pre class="export">${esc(JSON.stringify({profile:{name:S.me.full,email:'s.devries@student.utwente.nl'},consent:S.consent,location:S.loc,bookings:S.bookings.length,chats:S.convos.length},null,2))}</pre></details>`:''}
+      <p class="fine">You can also object to how we use your data, or withdraw a consent at any time; that doesn't affect what happened before. Questions? Message Knack support in the app. Not happy with our answer? You can complain to the Autoriteit Persoonsgegevens.</p>
+      <p class="fine">Payments are handled by our payment provider; Knack never sees your bank details.</p>
+      <p class="fine"><i>Example privacy summary for a student prototype, not legal advice.</i></p>`;
+  },
+  del(){
+    $('bar').className='bar'; $('bar').innerHTML = barBack('Delete account');
+    const held=S.jobs.filter(j=>j.status==='held'||j.status==='await').reduce((a,j)=>a+net(j.amount),0);
+    const open=S.bookings.filter(b=>b.status==='held'||b.status==='done').length;
+    return `<h2 class="big">Sorry to see you go, ${esc(S.me.name)}.</h2>
+      <p style="margin:0">Here's what happens when you delete your account:</p>
+      <ul class="dellist">
+        <li>Your profile and services disappear from Knack right away.</li>
+        <li>${open?`Your ${open} open booking${open>1?'s are':' is'} cancelled and refunded.`:'You have no open bookings.'}</li>
+        <li>${held?`${eur(held)} that's held for you is paid out first, once those jobs are confirmed.`:'You have no money waiting to be paid out.'}</li>
+        <li>Reviews you wrote stay, but show "Former student" instead of your name.</li>
+        <li>Your personal data is deleted within 30 days, as the AVG (GDPR) requires. Your tax overview is emailed to you first.</li>
+      </ul>
+      <div style="display:grid;gap:6px"><b style="font-size:13px">Why are you leaving? (optional)</b>
+        <div class="radios">${["I've graduated","I don't use it anymore","Privacy reasons","Something else"].map((r,i)=>`<label><input type="radio" name="why" id="w${i}"> ${r}</label>`).join('')}</div></div>
+      <div class="field"><label for="delconf">Type DELETE to confirm</label><input id="delconf" autocomplete="off" placeholder="DELETE"></div>
+      <div class="cta"><button class="btn danger" id="delbtn" data-a="doDelete" disabled>Delete my account</button><button class="btn ghost" data-a="back">Keep my account</button></div>`;
+  },
+};
+
+function render(scrollTop){
+  if(S.deleted){
+    $('bar').hidden=true; $('tabs').hidden=true; $('topnav').hidden=true; $('sheet').innerHTML=''; $('app').dataset.v='deleted';
+    $('screen').innerHTML=`<div class="deleted">${LOGO}<h1>Your account is deleted</h1><p>Thanks for using Knack. Your data will be removed within 30 days. You're always welcome back.</p><button class="btn dark" data-a="reset" style="width:auto;padding-inline:22px">Start again (demo)</button></div>`;
+    return;
+  }
+  $('bar').hidden=false; $('tabs').hidden=false; $('topnav').hidden=false;
+  const v=view(); $('app').dataset.v=v.name;
+  $('screen').innerHTML = R[v.name](v);
+  if(v.name==='chat') $('screen').scrollTop=1e6; else if(scrollTop) $('screen').scrollTop=0;
+  const cur=tabOf(v.name); const unread=unreadTotal(); const confirm=S.bookings.filter(b=>b.status==='done').length;
+  $('tabs').innerHTML=[['explore','Explore','explore'],['bookings','Bookings','cal'],['inbox','Inbox','inbox'],['earn','Earn','wallet'],['profile','Profile','user']].map(([id,n,icn])=>{
+    const badge = id==='inbox'&&unread ? `<span class="dot">${unread}</span>` : id==='bookings'&&confirm ? `<span class="dot">${confirm}</span>` : '';
+    return `<button class="tab" data-a="tab" data-id="${id}" aria-current="${cur===id}">${ic(icn)}${n}${badge}</button>`;}).join('');
+  $('topnav').innerHTML = `<button class="tn-brand" data-a="tab" data-id="explore" aria-label="Knack home">${LOGO}<b>knack</b></button>
+    <div class="tn-links">${[['explore','Explore','explore'],['bookings','Bookings','cal'],['inbox','Inbox','inbox'],['earn','Earn','wallet']].map(([id,n,icn])=>{
+      const badge = id==='inbox'&&unread ? `<span class="dot">${unread}</span>` : id==='bookings'&&confirm ? `<span class="dot">${confirm}</span>` : '';
+      return `<button class="tn-link" data-a="tab" data-id="${id}" aria-current="${cur===id}">${ic(icn)}${n}${badge}</button>`;}).join('')}</div>
+    <button class="where" data-a="locOpen" aria-label="Change location">${ic('pin','s')}${S.loc?esc(S.loc.name):'Enschede'}</button>
+    <button class="iconbtn" data-a="themeFlip" aria-label="Switch to ${isDark()?'light':'dark'} theme">${ic(isDark()?'sun':'moon')}</button>
+    <button class="tn-av" data-a="tab" data-id="profile" aria-label="Profile">${av(S.me,'sm')}</button>`;
+  $('sheet').innerHTML = sheetHTML();
+}
+
+const RISKY=/(\b0?6[\s-]?\d{2}[\s-]?\d{2}[\s-]?\d{2}[\s-]?\d{2}\b|\+31|\btikkie\b|\bwhatsapp\b|\bcash\b|\biban\b|\bNL\d{2}[A-Z]{4})/i;
+function autoReply(c,text){
+  const t=text.toLowerCase();
+  let r = /time|when|tomorrow|today|morgen|later/.test(t) ? 'That works for me! Book the slot in the app so it is confirmed.'
+        : /price|cost|€|euro|discount|cheaper/.test(t) ? 'The price in my listing includes everything. Parts are at cost price.'
+        : RISKY.test(text) ? "Let's just keep it in Knack, then we're both covered if something goes wrong."
+        : /thank|thanks|bedankt|dank/.test(t) ? 'You are welcome! Enjoy.'
+        : ['Sounds good!','Sure, no problem.','Great, see you then!',"Okay, I'll keep you posted here."][c.msgs.length%4];
+  c.typing=true; if(isOpen(c)) render();
+  setTimeout(()=>{ c.typing=false; c.msgs.push({f:'them',t:r,at:now()}); if(isOpen(c)) render(); else { c.unread=(c.unread||0)+1; render(); } },1500);
+}
+const isOpen = c => view().name==='chat' && view().id===c.id && !S.deleted;
+
+const A = {
+  back, tab:d=>tab(d.id),
+  locOpen(){ S.sheet='loc'; S.locStep=S.loc?'set':'ask'; render(); },
+  locAreas(){ S.sheet='loc'; S.locStep='areas'; render(); },
+  locArea(d){ const a=AREAS[+d.i]; setLoc(a[0],a[1],a[2],'area'); },
+  locGPS(){
+    if(!navigator.geolocation){ S.locStep='areas'; render(); toast("Your browser can't share location. Pick your area."); return; }
+    toast('Waiting for your browser to ask permission…');
+    navigator.geolocation.getCurrentPosition(p=>{
+      const here={lat:p.coords.latitude,lng:p.coords.longitude};
+      if(km(here,CENTRE)>40){ setLoc('Enschede centrum',CENTRE.lat,CENTRE.lng,'area'); toast("You're outside Enschede, so we use the city centre for now"); }
+      else setLoc('Your location',here.lat,here.lng,'gps');
+    },()=>{ S.locStep='areas'; render(); toast("Location wasn't shared. Pick your area instead."); },{timeout:10000,maximumAge:600000});
+  },
+  maxKm(d){ S.maxKm = d.k==='any'?'any':+d.k; render(); },
+  locClear(){ S.loc=null; S.locStep='ask'; S.sheet=null; render(); toast('Location removed from this device'); },
+  sheetClose(){ S.sheet=null; render(); },
+  travel(d){ S.travel=+d.k; render(); toast(`You travel up to ${d.k} km for jobs`); },
+  cdraft(d){ S.cdraft[d.k]=!S.cdraft[d.k]; render(); },
+  consentAll(){ S.consent={analytics:true,marketing:true,at:new Date().toISOString()}; saveConsent(S.consent); S.sheet=null; render(); toast('Choices saved'); },
+  consentNec(){ S.consent={analytics:false,marketing:false,at:new Date().toISOString()}; saveConsent(S.consent); S.sheet=null; render(); toast('Only necessary data is used'); },
+  consentSave(){ S.consent={...S.cdraft,at:new Date().toISOString()}; saveConsent(S.consent); S.sheet=null; render(); toast('Choices saved'); },
+  privacyRead(){ S.sheet=null; S.stack=[{name:'profile'},{name:'privacy'}]; render(true); },
+  privacy(){ go({name:'privacy'}); },
+  consentToggle(d){ const c=S.consent||{analytics:false,marketing:false}; c[d.k]=!c[d.k]; c.at=new Date().toISOString(); S.consent=c; saveConsent(c); render(); toast('Choice updated'); },
+  download(){
+    const data={exported:new Date().toISOString(),profile:{name:S.me.full,study:S.me.study,email:'s.devries@student.utwente.nl'},
+      consent:S.consent,location:S.loc,services:S.listings.filter(l=>l.mine).map(l=>({title:l.title,price:l.price,unit:l.unit})),
+      bookings:S.bookings.map(b=>({service:L(b.lid).title,with:L(b.lid).who,when:b.slot,price:b.price,status:b.status})),
+      chats:S.convos.map(c=>({with:c.who,messages:c.msgs.filter(m=>m.t).map(m=>({from:m.f,text:m.t,at:m.at}))}))};
+    try{ const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
+      const a=document.createElement('a'); a.href=url; a.download='knack-my-data.json'; document.body.appendChild(a); a.click(); a.remove(); }catch(e){}
+    S.showExport=true; render(); toast('Your data file: knack-my-data.json');
+  },
+  reset(){ try{localStorage.removeItem('knack-consent')}catch(e){} S=seed(); S.consent=null; S.sheet='privacy'; applyTheme(); render(true); },
+  cat(d){ S.cat=d.id; render(); },
+  how(){ go({name:'how'}); },
+  open(d){ go({name:'listing',id:d.id}); },
+  slot(d){ S.sel[d.id]=+d.i; const sc=$('screen').scrollTop; render(); $('screen').scrollTop=sc; },
+  checkout(d){ go({name:'checkout',id:d.id}); },
+  pay(d){
+    const l=L(d.id); const id='b'+Date.now();
+    S.bookings.push({id,lid:l.id,slot:l.slots[S.sel[l.id]??0],price:l.price,status:'held'});
+    S.stack=[{name:'bookings'},{name:'booking',id}]; render(true);
+    toast(`Booked. ${eur(l.price+fee(l.price))} is held by Knack`);
+  },
+  booking(d){ go({name:'booking',id:d.id}); },
+  simDone(d){ const b=B(d.id); b.status='done'; b.hours=48; render(true); toast(`${L(b.lid).who} marked the job as done`); },
+  cancel(d){ const b=B(d.id); b.status='cancelled'; render(true); toast('Cancelled. Full refund on its way'); },
+  confirm(d){ const b=B(d.id); b.status='released'; render(true); toast(`${eur(net(b.price))} released to ${L(b.lid).who}`); },
+  review(d){ S.draft={s:5,tags:[],photos:[]}; go({name:'review',id:d.id}); },
+  star(d){ S.draft.t=$('rv')?.value||''; S.draft.s=+d.n; render(); },
+  qtag(d){ S.draft.t=$('rv')?.value||''; const t=S.draft.tags||(S.draft.tags=[]); const i=t.indexOf(d.t); i<0?t.push(d.t):t.splice(i,1); render(); },
+  sendReview(d){
+    const b=B(d.id); const l=L(b.lid); const txt=($('rv').value||'').trim();
+    const full=[(S.draft.tags||[]).join(' · '),txt].filter(Boolean).join('. ');
+    b.review={s:S.draft.s,t:full}; b.status='reviewed';
+    l.reviews.unshift({n:S.me.name,s:S.draft.s,t:full||'No comment',w:'just now',photos:S.draft.photos||[]});
+    l.count++; l.rating=Math.round(((l.rating*(l.count-1))+S.draft.s)/l.count*10)/10;
+    S.stack=[{name:'bookings'},{name:'booking',id:b.id}]; render(true); toast('Review posted');
+  },
+  dispute(d){ go({name:'dispute',id:d.id}); },
+  sendDispute(d){
+    const b=B(d.id); const r=document.querySelector('input[name="reason"]:checked');
+    b.status='dispute'; b.reason=r?r.value:'';
+    S.stack=[{name:'bookings'},{name:'booking',id:b.id}]; render(true); toast('Report sent. Payment frozen');
+  },
+  chat(d){ go({name:'chat',id:d.id}); },
+  msgListing(d){ const l=L(d.id); openChatWith(l.who,l.title,l.id); },
+  exam(){ S.exam=!S.exam; render(); toast(S.exam?'Exam week mode on. Succes!':'You can be booked again'); },
+  notif(){ S.notif=!S.notif; render(); },
+  hour(d){ S.avail[d.k]=S.avail[d.k]?0:1; const sc=$('screen').scrollTop; render(); $('screen').scrollTop=sc; },
+  lb(d){ const l=L(d.id); const items=d.r!==undefined?l.reviews[+d.r].photos:l.photos; S.lb={items,i:+d.i}; render(); },
+  lbNav(d){ const n=S.lb.items.length; S.lb.i=(S.lb.i+(+d.k)+n)%n; render(); },
+  lbClose(){ S.lb=null; render(); },
+  avail(d){ S.avail[d.k]=S.avail[d.k]?0:1; const sc=$('screen').scrollTop; render(); $('screen').scrollTop=sc; },
+  jobDone(d){ const j=S.jobs.find(x=>x.id===d.id); j.status='await'; render(); toast(`Waiting for ${j.client} to confirm`); },
+  jobPaid(d){ const j=S.jobs.find(x=>x.id===d.id); j.status='paid'; S.paidOut+=net(j.amount); S.jobsDone++; render(); toast(`${eur(net(j.amount))} paid out to you`); },
+  add(){ S.newPhotos=[]; go({name:'add'}); },
+  theme(d){ S.theme=d.id; applyTheme(); render(); },
+  themeFlip(){ S.theme=isDark()?'light':'dark'; applyTheme(); render(); },
+  del(){ go({name:'del'}); },
+  doDelete(){ if(($('delconf').value||'').trim().toUpperCase()!=='DELETE') return; S.deleted=true; render(true); },
+};
+
+document.addEventListener('click',e=>{
+  const t=e.target.closest('[data-a]'); if(!t) return;
+  const fn=A[t.dataset.a]; if(fn){ e.preventDefault(); fn(t.dataset,t); }
+});
+$('app').addEventListener('input',e=>{
+  if(e.target.id==='q'){ S.q=e.target.value; $('results').innerHTML=listHTML(); $('cnt').textContent=visible().length+' students'; }
+  if(e.target.id==='rv'){ S.draft.t=e.target.value; }
+  if(e.target.id==='kmrange'){ S.maxKm=+e.target.value; $('kmval').textContent=String(S.maxKm).replace('.',',')+' km'; }
+  if(e.target.id==='delconf'){ $('delbtn').disabled = e.target.value.trim().toUpperCase()!=='DELETE'; }
+});
+$('app').addEventListener('change',e=>{
+  const id=e.target.id;
+  if(id==='kmrange'){ render(); }
+  if(id==='rvph'){ readImgs(e.target.files,3-(S.draft.photos||[]).length,ph=>{ S.draft.photos=(S.draft.photos||[]).concat(ph); S.draft.t=$('rv')?.value||S.draft.t; render(); }); }
+  if(id==='a-ph'){ readImgs(e.target.files,6,ph=>{ S.newPhotos=(S.newPhotos||[]).concat(ph).slice(0,6); $('a-prev').innerHTML=S.newPhotos.map(p=>`<div class="ph sm">${phHTML(p)}</div>`).join('')+`<label class="ph sm add" for="a-ph">${ic('plus')}<span>Photos</span></label>`; }); }
+  if(id==='myph'){ const l=L(e.target.dataset.id); readImgs(e.target.files,6,ph=>{ l.photos=ph.concat(l.photos||[]); render(); toast('Photos added to your service'); }); }
+});
+$('app').addEventListener('submit',e=>{
+  e.preventDefault();
+  if(e.target.id==='chatform'){
+    const c=C(e.target.dataset.id); const inp=$('msg'); const t=inp.value.trim(); if(!t) return;
+    c.msgs.push({f:'me',t,at:now()});
+    if(RISKY.test(t)) c.msgs.push({f:'sys',t:'Heads-up: payments or deals outside Knack are not protected. Book through the app to keep the money held safely and your review counted.'});
+    render(); const ni=$('msg'); if(ni) ni.focus();
+    autoReply(c,t);
+    return;
+  }
+  if(e.target.id==='addform'){
+    const title=$('a-title').value.trim(); const price=parseFloat($('a-price').value);
+    if(!title||!(price>0)) return;
+    S.listings.unshift({id:'m'+Date.now(),area:'Hengelosestraat',lat:52.2300,lng:6.8700,mode:'visit',cat:$('a-cat').value,title,who:S.me.name,mine:true,isNew:true,ini:S.me.ini,col:S.me.col,study:'Industrial Design · UT',
+      price,unit:$('a-unit').value,rating:0,count:0,jobs:0,done:'–',reply:'new',desc:$('a-desc').value.trim()||'No description yet.',
+      slots:['Mon evening','Wed morning','Sat afternoon'],reviews:[],photos:S.newPhotos||[]}); S.newPhotos=[];
+    S.cat='all'; S.q=''; S.stack=[{name:'explore'}]; render(true); toast('Your service is live on Explore');
+  }
+});
+applyTheme();
+render(true);
+setTimeout(()=>{const sp=$('splash'); if(sp) sp.remove(); if(!S.consent){ S.sheet='privacy'; render(); }},1700);
+</script>
+
+</body>
+</html>
